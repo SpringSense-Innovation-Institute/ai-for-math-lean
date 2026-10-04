@@ -1,0 +1,149 @@
+{
+  "status": "LOCAL_PASS_OFFICIAL_PREFLIGHT_PENDING",
+  "verified_code_commit": "5a2796ba0421cf48dd2f08c3424697e46abfc4de",
+  "profile": "local-unsandboxed-macos",
+  "proof_receipt": "stage8/evidence/local-5a2796ba0421/receipt.json",
+  "verification_context": "stage8/evidence/local-5a2796ba0421/verification-context.json",
+  "current_release_proof_gates": {
+    "status": "PASS",
+    "fresh_project_build": true,
+    "input_sha256_count": 113,
+    "inputs_unchanged": true,
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "official_protected_preflight": {
+    "status": "NOT_RUN",
+    "required_profile": "palomar-standard-v1",
+    "reason": "Local macOS unsandboxed verification is not the official protected Linux workflow"
+  },
+  "checks": {
+    "independent_challenge": {
+      "status": "PASS",
+      "command": [
+        "/Users/coder-osman/.elan/toolchains/leanprover--lean4---v4.35.0-rc2/bin/lean",
+        "--root=/var/folders/zk/zb2xwd9n6tg38t_dcxmpgz0m0000gn/T/erdos448-statement-i3onkk1b",
+        "/var/folders/zk/zb2xwd9n6tg38t_dcxmpgz0m0000gn/T/erdos448-statement-i3onkk1b/Challenge.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 10.79,
+      "evidence": "stage8/evidence/local-5a2796ba0421/independent_challenge.log",
+      "transcript_sha256": "40b1ad047241598ebc03e060417d0430a99b69ed11ae3bc1c186f674e517b2ec",
+      "dependency_paths": [
+        "/Users/coder-osman/zhichun/ai-for-math-lean/erdos-problems/erdos448/.lake/packages/Cli/.lake/build/lib/lean",
+        "/Users/coder-osman/zhichun/ai-for-math-lean/erdos-problems/erdos448/.lake/packages/batteries/.lake/build/lib/lean",
+        "/Users/coder-osman/zhichun/ai-for-math-lean/erdos-problems/erdos448/.lake/packages/Qq/.lake/build/lib/lean",
+        "/Users/coder-osman/zhichun/ai-for-math-lean/erdos-problems/erdos448/.lake/packages/aesop/.lake/build/lib/lean",
+        "/Users/coder-osman/zhichun/ai-for-math-lean/erdos-problems/erdos448/.lake/packages/proofwidgets/.lake/build/lib/lean",
+        "/Users/coder-osman/zhichun/ai-for-math-lean/erdos-problems/erdos448/.lake/packages/importGraph/.lake/build/lib/lean",
+        "/Users/coder-osman/zhichun/ai-for-math-lean/erdos-problems/erdos448/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+        "/Users/coder-osman/zhichun/ai-for-math-lean/erdos-problems/erdos448/.lake/packages/plausible/.lake/build/lib/lean",
+        "/Users/coder-osman/zhichun/ai-for-math-lean/erdos-problems/erdos448/.lake/packages/mathlib/.lake/build/lib/lean",
+        "/Users/coder-osman/.elan/toolchains/leanprover--lean4---v4.35.0-rc2/lib/lean"
+      ]
+    },
+    "project_build": {
+      "status": "PASS",
+      "command": [
+        "lake",
+        "build"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 148.18,
+      "evidence": "stage8/evidence/local-5a2796ba0421/project_build.log",
+      "transcript_sha256": "2164bfb0ebd328033eafae6452a4ce5e18e7f8f634d14dadacd56e0adf1c453c"
+    },
+    "exact_type_and_axioms": {
+      "status": "PASS",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "scripts/Check.lean"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 18.27,
+      "evidence": "stage8/evidence/local-5a2796ba0421/exact_type_and_axioms.log",
+      "transcript_sha256": "a9e9b89d638d9af7548c10d4ce17a818289ab2c6bf283c75ec679e5ff6e7c913"
+    },
+    "comparator_and_independent_kernels": {
+      "status": "PASS",
+      "command": [
+        "lake",
+        "comparator",
+        "--inadvisably-no-sandbox",
+        "--config",
+        "/var/folders/zk/zb2xwd9n6tg38t_dcxmpgz0m0000gn/T/erdos448-kernels-337lvp_z/comparator.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 184.27,
+      "evidence": "stage8/evidence/local-5a2796ba0421/comparator_and_independent_kernels.log",
+      "transcript_sha256": "215bf90e16514d138cbd1ccfe396a4273dee8f427e33a098a424925a4d018999"
+    },
+    "comparator": {
+      "status": "PASS",
+      "parent_gate": "comparator_and_independent_kernels",
+      "exit_code": 0,
+      "evidence": "stage8/evidence/local-5a2796ba0421/comparator_and_independent_kernels.log",
+      "transcript_sha256": "215bf90e16514d138cbd1ccfe396a4273dee8f427e33a098a424925a4d018999",
+      "acceptance_marker": "Your solution is okay!"
+    },
+    "nanoda": {
+      "status": "PASS",
+      "parent_gate": "comparator_and_independent_kernels",
+      "exit_code": 0,
+      "evidence": "stage8/evidence/local-5a2796ba0421/comparator_and_independent_kernels.log",
+      "transcript_sha256": "215bf90e16514d138cbd1ccfe396a4273dee8f427e33a098a424925a4d018999",
+      "acceptance_marker": "nanoda kernel accepts the solution"
+    },
+    "con-ron": {
+      "status": "PASS",
+      "parent_gate": "comparator_and_independent_kernels",
+      "exit_code": 0,
+      "evidence": "stage8/evidence/local-5a2796ba0421/comparator_and_independent_kernels.log",
+      "transcript_sha256": "215bf90e16514d138cbd1ccfe396a4273dee8f427e33a098a424925a4d018999",
+      "acceptance_marker": "con-ron kernel accepts the solution",
+      "accepted_declarations": 59293,
+      "mode": "verified"
+    },
+    "lean_kernel": {
+      "status": "PASS",
+      "parent_gate": "comparator_and_independent_kernels",
+      "exit_code": 0,
+      "evidence": "stage8/evidence/local-5a2796ba0421/comparator_and_independent_kernels.log",
+      "transcript_sha256": "215bf90e16514d138cbd1ccfe396a4273dee8f427e33a098a424925a4d018999",
+      "acceptance_marker": "Lean default kernel accepts the solution"
+    },
+    "official_intake_subset": {
+      "status": "PASS",
+      "exit_code": 0,
+      "command": [
+        "/Users/coder-osman/.cache/palomar-contract/venv/bin/python",
+        "scripts/intake.py",
+        "--contract",
+        "/Users/coder-osman/.cache/palomar-contract/PalomarSubmission"
+      ],
+      "evidence": "stage8/evidence/local-5a2796ba0421/intake.log",
+      "transcript_sha256": "b05b242dd2e61e961513613116701149de62bd2cb467273e6376f6d159741d69",
+      "verified_code_commit": "5a2796ba0421cf48dd2f08c3424697e46abfc4de",
+      "limitation": "Subset of official intake functions; no full protected workflow claim"
+    },
+    "upstream_metadata_schema": {
+      "status": "PASS",
+      "evidence": "stage8/evidence/local-5a2796ba0421/metadata-schema.json"
+    },
+    "canonical_MIT": {
+      "status": "PASS",
+      "evidence": "LICENSE",
+      "sha256": "6b557fefe4936463dd2dac21303a9fff7844a8c3cdb65c9dda8f748edcc22568",
+      "basis": "Byte-identical to user-confirmed Erd\u0151s 745 MIT license"
+    },
+    "official_spdx_detector": {
+      "status": "NOT_RUN",
+      "reason": "Official licensee detection reserved for the protected workflow"
+    }
+  }
+}

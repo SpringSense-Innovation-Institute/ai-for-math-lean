@@ -1,0 +1,70 @@
+{
+  "verified_code_commit": "5a2796ba0421cf48dd2f08c3424697e46abfc4de",
+  "checkout": "/Users/coder-osman/.cache/palomar-contract/erdos448-audit-5a2796ba0421",
+  "checkout_clean_after_verification": true,
+  "source_checkout_type": "Independent clean Git clone detached at the immutable code commit",
+  "project_build_directory_present_before_verification": false,
+  "dependency_artifacts_reused_only": true,
+  "dependency_link": "Untracked .lake/packages links to matching pinned dependency checkouts; no project oleans reused",
+  "dependencies": [
+    {
+      "name": "mathlib",
+      "revision": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+      "clean": true,
+      "url": "https://github.com/leanprover-community/mathlib4.git"
+    },
+    {
+      "name": "plausible",
+      "revision": "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912",
+      "clean": true,
+      "url": "https://github.com/leanprover-community/plausible"
+    },
+    {
+      "name": "LeanSearchClient",
+      "revision": "95e037bfdc31d3916ac615446847fb01960e2719",
+      "clean": true,
+      "url": "https://github.com/leanprover-community/LeanSearchClient"
+    },
+    {
+      "name": "importGraph",
+      "revision": "10930f8138f0462dbd744a91fc03a16fae0e046f",
+      "clean": true,
+      "url": "https://github.com/leanprover-community/import-graph"
+    },
+    {
+      "name": "proofwidgets",
+      "revision": "4c70ac059693669e5756e32a7a94b57ee1e99dc5",
+      "clean": true,
+      "url": "https://github.com/leanprover-community/ProofWidgets4"
+    },
+    {
+      "name": "aesop",
+      "revision": "75d936c7af167cc93fac0d31237682fc2204591d",
+      "clean": true,
+      "url": "https://github.com/leanprover-community/aesop"
+    },
+    {
+      "name": "Qq",
+      "revision": "786b7acdca7eb4e9c76c5d1d5bd810e7e5c56334",
+      "clean": true,
+      "url": "https://github.com/leanprover-community/quote4"
+    },
+    {
+      "name": "batteries",
+      "revision": "ed9b316aabe389fec1ef43c3326ab48c7e59be42",
+      "clean": true,
+      "url": "https://github.com/leanprover-community/batteries"
+    },
+    {
+      "name": "Cli",
+      "revision": "2842b9871b04862f944c032e34052cb9448ccb71",
+      "clean": true,
+      "url": "https://github.com/leanprover/lean4-cli"
+    }
+  ],
+  "platform": "macOS-15.6-arm64-arm-64bit-Mach-O",
+  "python_version": "3.14.7",
+  "intake_environment": "Platform-compatible local Python environment; not the official hashed Linux environment",
+  "receipt_sha256": "38f5b89568e77b9a565c9e00ff3115493051a1ffa4e63bbbd2ff8a2bc7a727db",
+  "proof_input_count": 113
+}

@@ -1,0 +1,66 @@
+version: v0.4
+project:
+  name: Negative resolution of Erdős problem 448
+  description: >-
+    A premise-free Lean proof that the assertion tauPlus(n) < epsilon * tau(n)
+    for almost all positive integers n is false when asserted for every
+    positive epsilon. Here tauPlus counts occupied half-open dyadic intervals
+    of positive divisors and almost all is formalized by natural density one.
+  authors: [Jingxuan Ding]
+  responsible_maintainers: [Jingxuan Ding]
+  license: MIT
+classification:
+  arxiv: [math.NT]
+  msc2020: [11N25]
+sources:
+  - title: Sur la structure de la suite des diviseurs d'un entier
+    authors: [Paul Erdős, Gérald Tenenbaum]
+    type: article
+    relationship: adapts
+    location: Selected pages 18–19 and 22–32; Theorem 1 and its negative-resolution consequence
+    note: >-
+      Based on the supplied source transcription and the project's S3/S4
+      reconstruction. Internal uniform product estimates use a repaired
+      family-wide positive floor; all required provider premises are discharged.
+  - title: On a Result of R. R. Hall
+    authors: [Heini Halberstam, Hans-Egon Richert]
+    type: article
+    relationship: adapts
+    location: Selected pages 77–82; mean-value estimate
+status:
+  scope: The negative resolution of problem 448; no broader classification of the divisor-ratio distribution is submitted.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: [propext, Classical.choice, Quot.sound]
+automation:
+  methods:
+    - method: agent
+      framework: MathMiner and Codex
+      tool_setup: Source reconstruction, modular Lean proof engineering, tactics and release verification
+  notes: >-
+    Existing MathMiner proofs are retained. This release ports the source to
+    the current Lean module system and repairs build/API compatibility.
+    Historical model versions and effort costs are not established by the
+    available project records. Mechanical validation is recorded separately.
+fidelity:
+  divergences: >-
+    Finite occupied bins use natural indices and include the log/ceil bound;
+    density counts positive integers in [1,x) normalized by x. The strict
+    inequality and positive-epsilon quantifier of the original problem are
+    preserved. Internal product comparison contracts use the corrected
+    uniform positive floor documented in docs/mathematical-authority.md.
+review:
+  status: No independent human review documented
+  notes: >-
+    Historical records document a scoped representation repair and later S7/S8
+    kernel closure. This release does not convert historical mathematical
+    review rejections into acceptance. Fresh mechanical evidence is in stage8.
+alignment:
+  namespace: Erdos448
+  statements:
+    - source: Erdős problem 448; negative-resolution consequence
+      lean: Erdos448.negativeAnswer
+      module: Solution
+      status: proved in the prior source development; current release validation recorded in stage8
+
+acknowledgements: Jingxuan Ding is affiliated with SpringSense Innovation Institute. This formalization uses Lean, Mathlib and MathMiner.

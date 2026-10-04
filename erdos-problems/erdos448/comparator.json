@@ -1,0 +1,26 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Erdos448.negativeAnswer"
+  ],
+  "definition_names": [
+    "Erdos448.Stage4.PosNat",
+    "Erdos448.Stage4.divisorSet",
+    "Erdos448.Stage4.tau",
+    "Erdos448.Stage4.OccupiesBin",
+    "Erdos448.Stage4.occupiedBins",
+    "Erdos448.Stage4.tauPlus",
+    "Erdos448.Stage4.prefixCount",
+    "Erdos448.Stage4.prefixDensity",
+    "Erdos448.Stage4.HasNaturalDensity",
+    "Erdos448.Stage4.strictEvent",
+    "Erdos448.Stage4.OriginalClaim",
+    "Erdos448.Stage4.NegativeAnswer"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

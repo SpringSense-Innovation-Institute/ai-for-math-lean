@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "check": "upstream_v0.4_json_schema",
+  "verified_code_commit": "5a2796ba0421cf48dd2f08c3424697e46abfc4de",
+  "metadata_sha256": "75d83269d5028fda09e9cd8a0c6809e05eb1cd53a7e707d64416927c7686b27b",
+  "schema_sha256": "25ff6b25ca4511635aff4443cf20480c15e59dddf19591c730950b442ea54fce",
+  "command": "jsonschema.validate(yaml.safe_load(formalization.yaml), pinned upstream v0.4 schema)",
+  "official_protected_preflight": "NOT_RUN"
+}

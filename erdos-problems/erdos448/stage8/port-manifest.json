@@ -1,0 +1,628 @@
+{
+  "source_toolchain": "leanprover/lean4:v4.29.0-rc1",
+  "release_toolchain": "leanprover/lean4:v4.35.0-rc2",
+  "source_modules": 102,
+  "modules": [
+    {
+      "path": "Erdos448/dependencies/DP-MEAN/stage4/Design.lean",
+      "source_sha256": "38bece02a6c103875b32aab09a47606d5644f299c8283414952ce4a8f3ee8899",
+      "release_sha256": "3384af8d72f6e109bf3205a75e3b41f6a99411005b30c968d1bcabc5a67d1583",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MEAN/stage6/shared/TaskInterfaces.lean",
+      "source_sha256": "17e4d777cf3668d73fae34e507af4f1b67192c999601af00c34fc776f2c19e10",
+      "release_sha256": "b5f276fb27cbff854f1e5747376ce67bd6f55bbef55db80fc135ecba5887c792",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MEAN/stage6/tasks/T01/Work.lean",
+      "source_sha256": "a819e4d10cbd48f390ebdefc4c455b33253d5599ec99d712022d7cd5ae6b1c22",
+      "release_sha256": "29ee96564e93456afe77346dfe71076c29913e43536481d048f9e86281c130cb",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MEAN/stage6/tasks/T02/Work.lean",
+      "source_sha256": "14af5a4fc20ff254639b7d0d6493729fcb1829bd884145ff2d0424cf35b36dbe",
+      "release_sha256": "84529b8525d93e890723f483c74d3201914b1dd16c037c077c722ddf12e764b2",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MEAN/stage6/tasks/T03/Work.lean",
+      "source_sha256": "10c40be81dfe3986f10e9e996e9969c6198144b385bdb8e1bccc78450f7edfe1",
+      "release_sha256": "9c678ce7c7846cb7e548ac6de1aaae490f7d662f3c6e1672dd7d6fcc0ac493fd",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MEAN/stage6/tasks/T04/Work.lean",
+      "source_sha256": "0fc65c98fef07fa988a49de4e5c67c607c5ddfea46c9e057bf5041181c0bb5a0",
+      "release_sha256": "698f4c6ab93a005d012d276215f8c8ae59f4dcaa19ed7fcb49aaf149a268c85f",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MEAN/stage6/tasks/T05/Work.lean",
+      "source_sha256": "a61056b6053d7687ef971ab158058920f6ca600c360c7fdde574e7638eba70c5",
+      "release_sha256": "d455e495c573c7ade4f7e564735cb98cf95f4ee3ae36535e79cb1f763e39e5b5",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MEAN/stage6/tasks/T06/Work.lean",
+      "source_sha256": "8990c396a664f2a711b96d65e93d291b03535f5216dcba6323ac92f3e2d56d8c",
+      "release_sha256": "5945f3a0c616e4288420214cddabe88a29af4306635e127332ea5c553d7e10a1",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean",
+      "source_sha256": "09f25aa56d876c572b58a9fb03707f590993aa474c3a28b5a230a03307745881",
+      "release_sha256": "ebd127b9c85b040eecda7d2a06a31e8c3cf29e3e4e63d39d803f9e735248fdf8",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MEAN/stage6/tasks/T08/Work.lean",
+      "source_sha256": "4d3cabe30fbe8e40ec09c6f2d45b79c722a4c9be454f560d46186f4b030886ce",
+      "release_sha256": "e028d959ad2854e2a618e63eb1c6e1931130e561e3822c05ac45ac95080befa7",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MEAN/stage7/T09/Work.lean",
+      "source_sha256": "41336aa1af0f36ba238ada64106210e38807497d9b018321c81890cf6e1f4076",
+      "release_sha256": "2aff7b13e1846ceac0fcf73f628dadf13291012b0af1539f0c8588dbd4e23d41",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MEAN/stage7/T10/Work.lean",
+      "source_sha256": "730cce053dd5c5b8d2ad083b2282e570522786d23c38d8e2a8ece5860cc0bdf3",
+      "release_sha256": "fc5148743a0ccfe022a1ee7c611343561502c46db36613905ae7514492b8114b",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MEAN/stage8/Integration.lean",
+      "source_sha256": "07cba51d7fcf93360b20987dda76437e216756c16e7b11ab47ffea928997880a",
+      "release_sha256": "1c0142c015fa503f63d53b3cb7a3614cf07ff2adf429bfe69eb65de07d43604a",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MERTENS/stage4/DP_Mertens_Design.lean",
+      "source_sha256": "5297ab71d303a44b7619f3893db0f227c54484bfe852569f8153472790000c51",
+      "release_sha256": "d94e6eb4e090447a41b2d0e301ec33d693ef975093693dd215d61d0370f9e075",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean",
+      "source_sha256": "66e2e5739d8980826ece0713f7936c2aeb51e6183e9ff1522864ea525a08d518",
+      "release_sha256": "3c390ec95398df94a34b68af0862ec875f5964df721db5616b7eae2de83df1a6",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MERTENS/stage6/FrozenTaskContracts.lean",
+      "source_sha256": "154495e6594cd0f4c6444fa9014bb1be97cbe85b8b3acdb0ac872590e16a03c3",
+      "release_sha256": "37ea69fecb06f013a3fb29b70caec4f177e188ba8e312983d6b20fb3c5f50a3b",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_CORRECTION/Result.lean",
+      "source_sha256": "687692f76732859aad0a2e196a0bc1626cd152dad93f725ba6358b00e6d6bab1",
+      "release_sha256": "47c8af92b24bf8ba165feaf0e8d465899ce1d126e7c6688d6b9f18d7afde7303",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_ENDPOINTS/Result.lean",
+      "source_sha256": "16ff833bae3187a51b8f63e1b63ccae6d106436d8f168aa0000ed46338f19e6d",
+      "release_sha256": "797bb20421b4c2bf8a82fd79254a50d1317787504ef63322705d8f7e9e7d07f1",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_FINAL/Result.lean",
+      "source_sha256": "ecb20c209246e91de1a7a644255e10381cab2357030cdeb36bc3492160799ec9",
+      "release_sha256": "1fb7644b124d86e9110d0ebf507a7b43eec4a98eb9d3a413bc7cf7e3ba56127b",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_PRODUCT_CORE/Result.lean",
+      "source_sha256": "a2b0bf7dd0c072289d57bbd00443bf2371ceca436dd183b9254bc5609495c7c4",
+      "release_sha256": "7222ae13db175bfb0d1f3ef19dc8fda5fbd0f9c433f4b02e17210c591727567a",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ASSEMBLY/Result.lean",
+      "source_sha256": "51189fc0d98ec7ce6d2e8ce96d01af3ce85701aea9a72ad172ffb0941f3c2ece",
+      "release_sha256": "71634db4b51c667e91683bb0d6ac32fd55f3353189ae1ed4075e8f94fac48cd7",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_CHEBYSHEV/Result.lean",
+      "source_sha256": "7b5cf170dfadd01ab0006839b1386b0507aec5c5cb5fd28e5bfc391c1b32644a",
+      "release_sha256": "7959e2e3b642fd6ac22ff84a14be172608205ce65bf44dcbdf5496e182108244",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_EXPINT/Result.lean",
+      "source_sha256": "712a9cc4bacd4957f25c142ff86325a9f2bfed21dfb245b37490464c5aa7b3a4",
+      "release_sha256": "70bbf7338ee5db4a872bbc3802d68cb9d7a0982d149ff56d46ced5a419739fbb",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_FIRST_LEMMA/Result.lean",
+      "source_sha256": "0abafa3f1ab7bf735fb0a7e7038a38bb224c95f599a3320ee6979d50ed368dac",
+      "release_sha256": "a3e316e326faa7aa9517a8ab785db1cc46ec99feabc20efec75c262b41694f6a",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_TAIL/Result.lean",
+      "source_sha256": "3d81b1749b2ae98ff4b23bbe54ad6a5cdf63597f407efc17cb4072318d9482ae",
+      "release_sha256": "f9a4629e5c88778a18ccedd9347ab11c47990a8195a4d35ef45cff93b526ad2c",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ZETA/Result.lean",
+      "source_sha256": "384e810844e8ae70d76826f7e6fe94b4066f94a7866d445dc54b492a85d5b990",
+      "release_sha256": "80b6b13a589f17f3c4add1194cc224f5f5c7c8035341186a924f103b4b2a5f62",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/dependencies/DP-MERTENS/stage8/Integration.lean",
+      "source_sha256": "1fcfc6b66bca3857c283407e104adbbd9cd1ecd28bfbc1ca1044bc79456ce7c6",
+      "release_sha256": "8fbba26c14a80f0f350e14b14e73908d7b525991f6430b32469bb0a3f5c5da5d",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage4/AnalyticFoundation.lean",
+      "source_sha256": "5e200570252718ba038aeadac391084fd795d69909112914a8af3702a47a4e33",
+      "release_sha256": "5d72ccf2367d3c0252ac64d412438f895a9de227d3cc9a87919f05c9afcc62bc",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage4/DependencyAdapters.lean",
+      "source_sha256": "8d7a8667da2bac9a5fd246a7b4ef5196f8828d869eb673172176b3462b7a0923",
+      "release_sha256": "9aeaa8fb96fcc4c1b06dff628c04bc841232c05c1504e3034bfed1033ecc5091",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage4/Interfaces.lean",
+      "source_sha256": "a183720305e825740bc40c790757ba354e00ebcdaf4044ed8e1cdca40ecc7fb5",
+      "release_sha256": "55ff7ba793349888275d037864145eb32881559f5f25df77d06243d45f9ed3b7",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage4/RootObjects.lean",
+      "source_sha256": "6b02851467f1a9a4580162bcc2006afb99a1ef946c3e288a242cf79c1d813434",
+      "release_sha256": "78104d16bef0c635165dd6e93ab3ed4c8ddcec8262ff483c5bba390709145483",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage4/WrapupFamilies.lean",
+      "source_sha256": "f3cf557e8a91a91f6db11b0327019a70687de042da8c4364a57da3198d30cf62",
+      "release_sha256": "8e4e0f6b3e8f65914f9ab89bf9d136603e48c31e9e482e624cbdf95eef6c85b8",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage4/contracts/GroupA.lean",
+      "source_sha256": "c9ef73f1b68f4988c2b10244b29301961dbd78c026bbf4f2fcf1bb2d57f6b098",
+      "release_sha256": "3da8f6cf55fc73f04030a1f715ce7e11efc4793642af8bc9e14d3a79fe43be64",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage4/contracts/GroupB.lean",
+      "source_sha256": "5583ca6cd50fd8c5269ab42f5124927017cf73d8956c85d44aff3bd945879cf4",
+      "release_sha256": "e9a310cd7c08453e9486e3716ffd8d52c78107e2012ebaf217abf404938f3753",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage4/contracts/GroupC.lean",
+      "source_sha256": "c399182fac69c2fd51719ae27b1c056f5686e19f933953fd4d1e926dced50a25",
+      "release_sha256": "e9211b78d2e86b8d6bb206b745bdc082cea476f8217bbb1817c4bfdc971912c1",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage4/contracts/GroupD.lean",
+      "source_sha256": "4b7708f025ba76647910417f461bbfc4408f8a3cdf3e5503736f323f6dcbb34b",
+      "release_sha256": "299bc5b6f0b1ad0d2d5bb86a44b9571b222e7ea91951291e7c061ec2ddf3bfe8",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage6/TaskContracts.lean",
+      "source_sha256": "07538a12dde045fe9aca301e7d7e1d781e4de47696339326ce7de698b707bc16",
+      "release_sha256": "6c5661f5897c6148fdc79639683eb9b0ea56db72457108bb747b537b26998d74",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/foundation/P053/Work.lean",
+      "source_sha256": "6f3ee8b3a739c7252224eea367f107383a1e07d0c657b342fd2dc65f04f9f94c",
+      "release_sha256": "6184d379a1a7636516697b92f4aa9300267c9c66ac71b822b61e5bb453d87e5e",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/foundation/P068-P069/Work.lean",
+      "source_sha256": "2b91734d1c686d3e0307a04ce17fc59db57577bde20802383556b3e0f5729eba",
+      "release_sha256": "8d4b4c66d1cd657117e57c40a192f217a7461e82c377853a51b04069bbd73d8c",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/providers/DP-MEAN-EXT001/Work.lean",
+      "source_sha256": "cc8f591b8b37eee848844c5005f4d510cd7045e0c666ffe20c511b77417d7a68",
+      "release_sha256": "8869ba056f80a2cbfeb352d62aa135e2e8d1db071ae26b3ec7ea962d410d9b9f",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/shared/LocalFactorFloor.lean",
+      "source_sha256": "bafa560395a17eb3d711acb45eaa821f04da52615b8743cd4a6e6bd476ed8137",
+      "release_sha256": "2db3aaea2d385d5ac36325c02042d0bcf89afb466dcd5bcc556ca8dd94f20f7c",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-01/Components.lean",
+      "source_sha256": "d898d19b4cc8684d5511a953d79d28de92bbc10a11c86e704e37da7bd734d522",
+      "release_sha256": "17eb0cb7e19ff956e1f8d8ceed2a6d8b56c74e2c156b241c31e85985dd8f9b9e",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-01/Decomposition.lean",
+      "source_sha256": "f09928e41b623b06222025b3eecf4f6c035243de4537a9de7493949d563a0598",
+      "release_sha256": "3ac25d30ce7be387958c86c3f0fce8da52403541c17be04b18c2ce303e205431",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-01/Elementary.lean",
+      "source_sha256": "84606faa139b480d1c55fbc2f7648a19ae1a53bf8186af0fd4e2be873059b9e5",
+      "release_sha256": "aaf3a5595373bfabd9dc87709572e773ed40c778789c65320d8929c0fdc7cd82",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-01/ErrorProducts.lean",
+      "source_sha256": "3354c4e574a71634e15201b4134f61d9e3eaf538afacc084772a86519f1a3608",
+      "release_sha256": "6172441cc86243efa2bdacdd32048bbae83aab2cf09481f9be8d0691c07b4979",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-01/EulerExpansion.lean",
+      "source_sha256": "1e3f3323e0f42cbdc6342dbaf38c1f796f0792793974b9b0ee6ae755286c299d",
+      "release_sha256": "74e3dacc8f3056bf4ca541676d6549a4e4945e305960c80c52973419cb8a5951",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-01/IntervalProducts.lean",
+      "source_sha256": "e4788b95a952aa59b86c2f4d2f54ccb43c1ca45b0d571b3dda61eb9404b0204f",
+      "release_sha256": "62de326446925e4c691a960bdc46485f8df67d1037a7ee8c548e5209784954b3",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-01/LocalProducts.lean",
+      "source_sha256": "d144e597f38e2d8ee6856dad655c8dcccfbec6b500a86a2caff3074f9eed80f6",
+      "release_sha256": "06916ee0f2bdcd6fd5d7aee96d4ab0701d845a708c1dc7fc9fb5e08656214497",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-01/Normalization.lean",
+      "source_sha256": "51fa5cc1204d97c6d427986e8e8b6cf5d3891d80387ed61caca9a8370dd65559",
+      "release_sha256": "3cf5619e6f7db2c2e0dd08f4b9c93f9ebbfbe0079f05c2140bd2ea73537755d0",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-01/Reindex.lean",
+      "source_sha256": "811f82091ada932023615c8c5e10ec6cdabab303964ee5c43774943ac26342b3",
+      "release_sha256": "d9a6e324162daf2930a188f840cf4f15d120a3f2fb1940d9192db9eb96032ea4",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-01/ShiftedMean.lean",
+      "source_sha256": "0818d21f0e894917f81484f24b60d42f734fafb729e55c57dbfa004af1fbb8f1",
+      "release_sha256": "aec71b9e5131235125b4ab2c73cab27cfc646f148d2225fdd580451e01c4d523",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-01/Summability.lean",
+      "source_sha256": "15384b0410547f22400f9dfc44d31b8639be4500e3621952b5e4165d7ad69d79",
+      "release_sha256": "ee8700b6cf54276bbb316188b601e2cf2434cb0af7376870b9ea30deec0e073c",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-01/Work.lean",
+      "source_sha256": "77d30ecd4cc83d020eeb813c806d4ec645e0e24bc08bde2e662d012dd253bd7d",
+      "release_sha256": "1362fe9312056ad080f4f5a8d3ea38959f0d356c4a2235919d477814543e832e",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-02/AllU.lean",
+      "source_sha256": "89e13f446acee3f946ecd876acdae69e7fe51159733fd68376a9305f60a0284c",
+      "release_sha256": "9973d1a97ea8716529876b59d31b292f410e9fdda1052a0a798179f111d63466",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-02/Assembly.lean",
+      "source_sha256": "a2cee1353683db87e20df0be32e4b58c0a80c396782447b2d926878e2f9cdb68",
+      "release_sha256": "f96ed26da0ac66aa18bce6fcc14c113c10637a813f53843b43bf0e1ba18422d7",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-02/Grid.lean",
+      "source_sha256": "2b62db279b6629f89ba296a771163f7bf28e6a73f5fea2726952718ff45488ed",
+      "release_sha256": "8c69f780c277e13a9f657e51acb8c8202f043f9261a9109e0dfbaf2830bbbd4a",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-02/Mean.lean",
+      "source_sha256": "cfef7a5e09123ba923f3e0625cb8816427fdd5ea1b38ad01d4b6b0bd399bb8f4",
+      "release_sha256": "a7b1adbaf6ba4d6df42ed6a342853d4bb46c634adaf39bc951cb335c5ea58722",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean",
+      "source_sha256": "68c4850cb2a581ee2927daf1f139ed2ef0db749f1eb6bd141afdd1cb2c35b4e2",
+      "release_sha256": "7b8c5e6607b0fcc38e47a45bcdecdc7e479424e62704a8b54bf715c9457ddec1",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-02/Numerics.lean",
+      "source_sha256": "7fa5adbd211f20a33fc4048a19433e05ac34f0517681aa17d7fb9b8649bd0c7f",
+      "release_sha256": "e726adb9db3bca84ebb4615817457af67722b0f9dce112d69646457943f02d2a",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-02/RoughDensity.lean",
+      "source_sha256": "8753f5f6acaf794cf4cb48a133b6a995d0593f5959c030bc6b7633ca6c000732",
+      "release_sha256": "acf11caf34edb0b91c2a4062066fdca1cd7ad83e8a0daadf6300621c498326a9",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-02/Tails.lean",
+      "source_sha256": "1a058779f2ec988b1763962a0725b0166142543105f2a5d2e9c9f84c9300e616",
+      "release_sha256": "2ce0fb6f129518ceeb22e266b90db02928c49db192ec66e63d0f463003defb0a",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-02/Threshold.lean",
+      "source_sha256": "17b47ade1cb298e446d155e84ab0fa7a739981c9b219044350a1fc825197b695",
+      "release_sha256": "8108f12e908250bc30a2cb413125058ef7f846a39540df01a469b0ff05f4cb18",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-02/Work.lean",
+      "source_sha256": "96fe04551bd7afa9e2da7474d2f763c05bc94b225e0f02f90995b2af877f8ef9",
+      "release_sha256": "25eb3ba26ed2ce8423006a75ed734b06a11879f8b426eb95df94622095ab2e57",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-03/Work.lean",
+      "source_sha256": "6bc45b3e31c3e606e5c3e57997cb2519f26264e02b070a880a3652ff3a41d7f7",
+      "release_sha256": "8557dfdcab37462e3c04d7d17244c95af9378e9fe40232a3054725bb9b2a1e86",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-04/FiniteSupport.lean",
+      "source_sha256": "6b88921d1c6bcb988b24369552173cdd1e69b40dd4b77f54b926ec6e39a28b0c",
+      "release_sha256": "b5c47ff03008ecb2aa97034c00abb1989dde791297f70637f4adbfa2e732e293",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-04/Helpers.lean",
+      "source_sha256": "91a2df1efbc9970e8a020fbaa7b852b8218cc059a949a8babe953f36d30a952a",
+      "release_sha256": "a02ca41e19651280bb023f1e88c82dea851c11fb86cbf598f0bf97a0293b3e83",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-04/Pointwise.lean",
+      "source_sha256": "a5f97a21a51d5797a28e19de348be98d4ecbc1cab583c54ee899280befee4f62",
+      "release_sha256": "a96f6990217f427b8b2a28ca5eb48f0711b151690f2562d93643d075d0405e4a",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-04/Reindex.lean",
+      "source_sha256": "24bc0c3712b8c65aa5ed054f3d32408ef7e9ed07e6c5136770926818c0b6729e",
+      "release_sha256": "70e62c5c9250b6fe718a932bb38bc4e52b73a9bcea0674b48e4669f04c9b8a76",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-04/Work.lean",
+      "source_sha256": "bfc428e739cba3170420a1d19b073cca242ed74c451509139099e83b814cf6cf",
+      "release_sha256": "69b65e2a2b5a427df8e512e184a2b3d9c8a127fd4da4e78e543c063722bf2f3a",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-05/Recovered.lean",
+      "source_sha256": "721108400867998944f607fc5ccedd5cf57064a6225de94c4b2453196d7c70aa",
+      "release_sha256": "ec7d7afee06c3d0c8f407c0efde323f421f87f23f03b4ecd0ae691c50ee4abf2",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-05/Work.lean",
+      "source_sha256": "90608226440fce41b5aae76ee2fc7c5ea74acf4971304982e4af18153f7910ed",
+      "release_sha256": "96f8731795abf0aca7a429386ceb3b5b3e1f5ebf13df2f655460a939cbdf7534",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-05/candidates/CU-P051G-H.Result.lean",
+      "source_sha256": "2f72ad48129b5f6bf5810d2a8b59f96bd1048a05bac80820bcc63bab90677eb8",
+      "release_sha256": "5225aedc471c61ef2b2fd1141c6da6cc653373b27124b7cd922a9389cb9f65c4",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-05/candidates/P050.Reindex.lean",
+      "source_sha256": "e7f3ccd3bf6d8f1d6afbf4c15254d0be1b17d609cc0feaba4fbb8e145faa34cb",
+      "release_sha256": "4755f57da520e796d4ef63c0684c74c2b55276a9561c879ecc4951c8e2654a79",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-05/recovered/P051AE.lean",
+      "source_sha256": "167dee6073cb8a50f526232f2584c601847ec123f2c1fbdb2308e6577762b4d9",
+      "release_sha256": "28de72c5dc0d3eb6d6a2d3c017a99fc943d1900304ab3afa2a89c319360edaad",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean",
+      "source_sha256": "5cccb47a757d734bf6a74d1697a161647dd5a06e6b5c06ad0121c8c513094a2a",
+      "release_sha256": "124db2841aed0b1d0128676081a7da7e27fb364a9754bac10749c6ba57a1dee8",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-06/Elementary.lean",
+      "source_sha256": "d487324ae13a0f75fd8899f78e83f343e60485fbad2b4717637c2630c4b22ca9",
+      "release_sha256": "fafdfbd0655593d26c4ec5d55997997797c06ac7c5dc88f203bb6f66000c3980",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-06/EulerEngine.lean",
+      "source_sha256": "1767a0ec9c9313b8b1d057205efcbd48dd41037d53bf2d277cdca270d9651245",
+      "release_sha256": "18c26bab7acfb8459c9fb2b30d1f8f4c5fd39170880b77eaae35533572a609db",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-06/GenericMean.lean",
+      "source_sha256": "e042bad035cef968b0b62de5fb5540ae6d2002dd469499ce187d77e171a65399",
+      "release_sha256": "7466fb3c68a03b0b5fc7b157fbb5f3fb0740f67b66a3b3254b745cecd5841f53",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-06/LogBounds.lean",
+      "source_sha256": "f1fb3aafaac4924a04bb9551b85ddb4af306d7fe29a622008060333d7dae11ed",
+      "release_sha256": "9a2e5ea63fe06a5fba593dfe8f48cc14e1744014957a6b99210f50daa6ec91d5",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-06/MainNodes.lean",
+      "source_sha256": "2f0289cdce0c23c941410496b0c0396291365b794f554cc15356806fefa2768a",
+      "release_sha256": "93f252bf505d6670530a90bb0fa8f550824ad37d5ed2098f055238805751a176",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-06/Outer.lean",
+      "source_sha256": "e03599c33e108a980416fb89418b2661f784e2d2195ec29430b54da2b3a0e3f3",
+      "release_sha256": "b4148aaa33adbedbfff5a836489a2a013520fee602e1cea498d22c7ec10d8919",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-06/RegularBounds.lean",
+      "source_sha256": "b2b3adcf626ba56d3b4ee6c62e6eb71e70388266232fad750110166455b16cc7",
+      "release_sha256": "1c2aa97e8933bc3e45222e3e9022993d117cca53fd66ffb280cd816834b83682",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-06/ShiftEngine.lean",
+      "source_sha256": "88133c4041d049c7c603350fe594b1a15e0b597803445628197396b71c47b1aa",
+      "release_sha256": "ad72ee9055cb29e458a49164dbdbb60100466013fa9da940bb884bc037b3e0d5",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-06/Smoothing.lean",
+      "source_sha256": "37147e46342524d0dbfa5e48ae8cb43bf9fa95db163f650cf33270b8c914a414",
+      "release_sha256": "ce98c3ba6707fb3468351856897dcbdf0098049289ac0c55e0311b473c813ba4",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-06/Work.lean",
+      "source_sha256": "bb8bbd037fa988896123b7e70ba6cdc46505d90c039f11481e2f6fd3a2e1e32c",
+      "release_sha256": "d6427622d68f4508df1f0c3b02a7dcf600f9966031bfabd3082516724c4f66e2",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-07/Family.lean",
+      "source_sha256": "dea562bc2ef9aff423055f626bb6113f7bb41b0f18b021a02829f010842f0c55",
+      "release_sha256": "d7c7f07d008058c78f910fec6847273087f0b0b9e3292be8fac992cb1955e0d3",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-07/Partition.lean",
+      "source_sha256": "c3c8d25bb44da958818e40e80ca2ecca3b3ffd6f86ce5c227f26a1a7558082b0",
+      "release_sha256": "4318069d66c4f541db8a8e85f69ebc94e4c52c2060a2b7a7a2d7a7e94bf94e6f",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-07/Smoothing.lean",
+      "source_sha256": "db9ea29e25ac391124ddcd1a67607dfbd122c6c26d20759c35da56faa3e2b8ec",
+      "release_sha256": "cd17c3830172813d03ffc9eadfda4bfb521079e4e75917deb6fa5cc635b44324",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-07/Transport.lean",
+      "source_sha256": "18bb84054247a95c5e94e5f0c9e65c56dcbb0c0848e22a0d8a631649b418fc6d",
+      "release_sha256": "8771591043e60e42acde9cc9516d0bc86ffd92d919d62cefd5336f0ac01279b8",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-07/WindowTransport.lean",
+      "source_sha256": "8e184ec48092cc466ce9f7cf683d05cc5df5bb30a68aadd32b50caad89257632",
+      "release_sha256": "2895b487437eb5b92316340daaf3789f607415e57122693ade8e8e019827a1d5",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-07/Work.lean",
+      "source_sha256": "201cd74bf400cb596fa6d9e325fa87c73243f52e713516bffe45ec48b51eba4b",
+      "release_sha256": "38436bd9e2d608e53d23204f3ff4b2c41854dcc93f4525ba703576bb2a67b7ec",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-08/Work.lean",
+      "source_sha256": "175da19a4c91fa9d7400f5eafdd7cabb1eb2d3dc619c553b42155dd2df76a913",
+      "release_sha256": "13c40017238464f7a472ebaa3bcc898f601cca3f3668d5e76e1981cccfed4647",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-09/Work.lean",
+      "source_sha256": "7fc6bc104d976165057311b65c2b2c557ba36b1ac770b11786ea8f9ea6c3f105",
+      "release_sha256": "f0b7376ec1375191a129b4656d17f11e1c5fa8394664b937f2366a216078a16b",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-10/Work.lean",
+      "source_sha256": "f778d40a97044c50ba7cf37b04dc537daf5020c05e956ffd39183d2b76996f9f",
+      "release_sha256": "bce50665bcc09f2f9c1b254d7f4edded664534b98d76f2497f225aa37848c27b",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-11/Work.lean",
+      "source_sha256": "2c720fca18ceea235b4df348b038c148d5a0d75d13ec82b67272158a0d2bbf15",
+      "release_sha256": "aece77d02e678ff39a5e1432fbed5f06df8880539276eef52b3294727c8fbe2b",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-12/Work.lean",
+      "source_sha256": "bfbe4cc079dd2a06e2d0599e1ef204fde9336990e8a1ccfa739dd9db48d041c2",
+      "release_sha256": "d99902dedc317bca92c32b9c45f9feb26efa7ed8ee7914e98fe3f98139882d0c",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-13/Recovered.lean",
+      "source_sha256": "6c31aa6df48f64cf1d7ec54f69814bb0a6aad76fbc3876e250476c364485bc9e",
+      "release_sha256": "bbcef431fb199be540efc37cc2c95bbce471a45a0461b1b4b5a734794411aea6",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-13/Work.lean",
+      "source_sha256": "4ffcf305adfe6d0063d9ee0e1d31637d6352b56021b97b7090fe102a824a3731",
+      "release_sha256": "f45a7e4b6aabd5921ef65c337cb046e25ca797ff3385d3bebbb8bd998255cb13",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-13/recovered/P110112.lean",
+      "source_sha256": "986feeb8e5d6b9fc9cd4eb94d886bddc130ae3b73392761fcd914e8daabba33b",
+      "release_sha256": "2849f76940bf8a8f6fa9ee78542da90e11408372e1af80803449ef84c21f75d7",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-13/recovered/P113117.lean",
+      "source_sha256": "0f5c1b714d93646465e51f1f85e6a8b2e3fb6c691e070d87bd953ae2f77dda63",
+      "release_sha256": "2fa4b394a7640c3a347027fc2a6b503fa5733218775f7a4a60cee763bc5c9cbe",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage7/tasks/ROOT-13/recovered/P120FT.lean",
+      "source_sha256": "ecdca686e3f85873eb7cc6698b19c7e5ba2854d766419a44ca02c1766fd97822",
+      "release_sha256": "a2d37658737f029f0a68d1f8ab1bbe5e31b052fa0e683ab6a5a2a2689c3d5974",
+      "changed": true
+    },
+    {
+      "path": "Erdos448/stage8/Integration.lean",
+      "source_sha256": "256aa7ad8b5393c149a0cf81360f8cd70f8fa8516598b565f392077e086608c3",
+      "release_sha256": "c42ccbbe8b443f62cc32c4a1c41869d4323fbaa5cc9b04cdc911c7979dd4c23d",
+      "changed": true
+    }
+  ],
+  "scope": "Existing completed proofs ported; no added mathematical premises or admissions. Original source remains unchanged.",
+  "changes": [
+    "Add module headers, public imports/sections and exposed definition bodies; make referenced helper declarations public.",
+    "Import all of Mathlib.Basic.Real.Basic to use underlying real instances in retained proof terms; use backward.isDefEq.respectTransparency false during elaboration. ROOT12 also imports all of the normed real instance module.",
+    "Normalize Function.comp_def, Pi pointwise operations, real rpow notation and explicitly selected weights.",
+    "Use Finset.prod_le_prod\u2080 with the existing nonnegativity premises, and adapt integral/asymptotic simplification.",
+    "Derive strict positivity from the retained natural sum lower bound by omega; remove tactics after goals have already closed."
+  ],
+  "reviewable_patch": "stage8/evidence/compatibility-port.patch"
+}
