@@ -1,0 +1,2501 @@
+⚠ [8931/9036] Built Challenge (4.5s)
+warning: Challenge.lean:74:8: declaration uses `sorry`
+⚠ [8933/9036] Built Erdos448.stage4.Interfaces (4.7s)
+warning: Erdos448/stage4/Interfaces.lean:27:2: `@[expose]` has no effect; this declaration would be exposed by default
+✔ [8934/9036] Built Erdos448.dependencies.«DP-MERTENS».stage4.DP_Mertens_Design (4.7s)
+⚠ [8935/9036] Built Erdos448.dependencies.«DP-MEAN».stage4.Design (4.9s)
+warning: Erdos448/dependencies/DP-MEAN/stage4/Design.lean:27:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage4/Design.lean:296:5: Variable name `lambda1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _lambda1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/dependencies/DP-MEAN/stage4/Design.lean:296:13: Variable name `lambda2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _lambda2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/dependencies/DP-MEAN/stage4/Design.lean:526:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage4/Design.lean:570:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage4/Design.lean:571:26: Variable name `range` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _range
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/dependencies/DP-MEAN/stage4/Design.lean:574:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage4/Design.lean:575:19: Variable name `range` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _range
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/dependencies/DP-MEAN/stage4/Design.lean:578:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage4/Design.lean:579:19: Variable name `range` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _range
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8936/9036] Built Erdos448.dependencies.«DP-MEAN».stage6.shared.TaskInterfaces (4.7s)
+warning: Erdos448/dependencies/DP-MEAN/stage6/shared/TaskInterfaces.lean:13:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage6/shared/TaskInterfaces.lean:16:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage6/shared/TaskInterfaces.lean:19:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage6/shared/TaskInterfaces.lean:22:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage6/shared/TaskInterfaces.lean:25:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage6/shared/TaskInterfaces.lean:28:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage6/shared/TaskInterfaces.lean:31:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage6/shared/TaskInterfaces.lean:42:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage6/shared/TaskInterfaces.lean:49:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage6/shared/TaskInterfaces.lean:52:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage6/shared/TaskInterfaces.lean:55:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage6/shared/TaskInterfaces.lean:60:2: `@[expose]` has no effect; this declaration would be exposed by default
+⚠ [8937/9036] Built Erdos448.dependencies.«DP-MERTENS».stage5.LoweringInterfaces (6.3s)
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:253:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:283:29: Variable name `B` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _B
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:303:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:304:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:305:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:306:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:307:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:308:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:309:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:310:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:311:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:312:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:313:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:314:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:315:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:316:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:359:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:364:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:365:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:366:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:367:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:368:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:369:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:370:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:371:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:372:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:373:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:374:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:375:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:376:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:377:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:378:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:379:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:380:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:381:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:382:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:383:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:384:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:385:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:386:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:388:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:389:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:390:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:391:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:392:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:393:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:394:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:395:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:396:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:397:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:398:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:399:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:400:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:401:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:403:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:404:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:405:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:406:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:407:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:408:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:409:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:410:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:411:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:412:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:413:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:414:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:415:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:416:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:417:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:418:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:419:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:420:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:421:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:422:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:423:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:424:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:425:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:427:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:429:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:431:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:433:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:435:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:437:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:439:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:441:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:443:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MERTENS/stage5/LoweringInterfaces.lean:445:2: `@[expose]` has no effect; this declaration would be exposed by default
+⚠ [8938/9036] Built Erdos448.stage4.RootObjects (6.3s)
+warning: Erdos448/stage4/RootObjects.lean:32:2: `@[expose]` has no effect; this declaration would be exposed by default
+✔ [8939/9036] Built Erdos448.dependencies.«DP-MERTENS».stage6.FrozenTaskContracts (14s)
+✔ [8940/9036] Built Erdos448.stage4.AnalyticFoundation (14s)
+✔ [8941/9036] Built Erdos448.dependencies.«DP-MERTENS».stage7.tasks.TASK_MSC_CHEBYSHEV.Result (14s)
+⚠ [8942/9036] Built Erdos448.dependencies.«DP-MEAN».stage6.tasks.T01.Work (16s)
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T01/Work.lean:12:2: `@[expose]` has no effect; this declaration would be exposed by default
+info: Erdos448/dependencies/DP-MEAN/stage6/tasks/T01/Work.lean:85:0: 'Erdos448.DPMean.TaskT01.target' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8943/9036] Built Erdos448.dependencies.«DP-MEAN».stage6.tasks.T08.Work (16s)
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T08/Work.lean:12:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T08/Work.lean:82:55: Variable name `hx` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hx
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8944/9036] Built Erdos448.dependencies.«DP-MEAN».stage6.tasks.T03.Work (16s)
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T03/Work.lean:14:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T03/Work.lean:157:12: `intervalIntegral.integral_finset_sum` has been deprecated: Use `intervalIntegral.integral_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  intervalIntegral.integral_finset_̵s̵S̲um
+⚠ [8945/9036] Built Erdos448.dependencies.«DP-MEAN».stage6.tasks.T05.Work (16s)
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T05/Work.lean:12:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T05/Work.lean:64:12: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T05/Work.lean:64:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [8946/9036] Built Erdos448.dependencies.«DP-MEAN».stage7.T09.Work (16s)
+warning: Erdos448/dependencies/DP-MEAN/stage7/T09/Work.lean:12:2: `@[expose]` has no effect; this declaration would be exposed by default
+⚠ [8947/9036] Built Erdos448.dependencies.«DP-MEAN».stage6.tasks.T04.Work (16s)
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T04/Work.lean:205:46: This simp argument is unused:
+  Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hpdvd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T04/Work.lean:217:2: `@[expose]` has no effect; this declaration would be exposed by default
+⚠ [8948/9036] Built Erdos448.dependencies.«DP-MEAN».stage6.tasks.T06.Work (16s)
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T06/Work.lean:12:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T06/Work.lean:74:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [8949/9036] Built Erdos448.stage4.contracts.GroupD (15s)
+warning: Erdos448/stage4/contracts/GroupD.lean:446:5: Variable name `hk` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hk
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage4/contracts/GroupD.lean:452:37: Variable name `ht` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ht
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8950/9036] Built Erdos448.dependencies.«DP-MEAN».stage6.tasks.T02.Work (16s)
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T02/Work.lean:14:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T02/Work.lean:173:43: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+⚠ [8951/9036] Built Erdos448.dependencies.«DP-MEAN».stage6.tasks.T07.Work (16s)
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean:12:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean:46:36: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean:156:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean:232:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean:254:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean:254:44: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean:257:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean:258:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean:260:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean:260:39: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean:308:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean:308:27: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean:309:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean:313:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean:313:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean:314:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/dependencies/DP-MEAN/stage6/tasks/T07/Work.lean:316:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [8952/9036] Built Erdos448.dependencies.«DP-MEAN».stage7.T10.Work (16s)
+warning: Erdos448/dependencies/DP-MEAN/stage7/T10/Work.lean:12:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/dependencies/DP-MEAN/stage7/T10/Work.lean:88:26: This simp argument is unused:
+  strictMean
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [strictNatDomain, inclusiveNatDomain, Finset.mem_filter, Finset.mem_range, inclusiveMean]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/dependencies/DP-MEAN/stage7/T10/Work.lean:88:38: This simp argument is unused:
+  inclusiveMean
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [strictNatDomain, inclusiveNatDomain, Finset.mem_filter, Finset.mem_range, strictMean]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/dependencies/DP-MEAN/stage7/T10/Work.lean:200:27: Variable name `range` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _range
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8953/9036] Built Erdos448.dependencies.«DP-MERTENS».stage7.tasks.TASK_MERT_ENDPOINTS.Result (9.1s)
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_ENDPOINTS/Result.lean:117:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_ENDPOINTS/Result.lean:188:0: 'Erdos448.DPMertens.Tasks.MertEndpoints.result' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8954/9036] Built Erdos448.dependencies.«DP-MERTENS».stage7.tasks.TASK_MSC_ZETA.Result (9.3s)
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ZETA/Result.lean:31:15: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ZETA/Result.lean:43:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ZETA/Result.lean:54:21: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ZETA/Result.lean:191:15: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ZETA/Result.lean:201:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ZETA/Result.lean:214:15: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ZETA/Result.lean:286:16: This simp argument is unused:
+  primeZetaOnePlus
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [primeZetaCorrection, hp, x]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ZETA/Result.lean:287:16: This simp argument is unused:
+  primeZetaOnePlus
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [primeZetaCorrection, hp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ZETA/Result.lean:290:0: Definition `analyticBridge` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+⚠ [8955/9036] Built Erdos448.dependencies.«DP-MERTENS».stage7.tasks.TASK_MERT_PRODUCT_CORE.Result (9.8s)
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_PRODUCT_CORE/Result.lean:96:51: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_PRODUCT_CORE/Result.lean:200:0: 'Erdos448.DPMertens.Tasks.MertProductCore.result' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8956/9036] Built Erdos448.dependencies.«DP-MERTENS».stage7.tasks.TASK_MERT_FINAL.Result (9.0s)
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_FINAL/Result.lean:43:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_FINAL/Result.lean:183:8: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_FINAL/Result.lean:183:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_FINAL/Result.lean:191:12: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_FINAL/Result.lean:200:12: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_FINAL/Result.lean:255:0: 'Erdos448.DPMertens.Tasks.MertFinal.result' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8957/9036] Built Erdos448.stage4.contracts.GroupA (10s)
+warning: Erdos448/stage4/contracts/GroupA.lean:557:11: Variable name `d` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _d
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage4/contracts/GroupA.lean:691:2: `@[expose]` has no effect; this declaration would be exposed by default
+⚠ [8958/9036] Built Erdos448.dependencies.«DP-MERTENS».stage7.tasks.TASK_MERT_CORRECTION.Result (10s)
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_CORRECTION/Result.lean:64:44: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_CORRECTION/Result.lean:85:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_CORRECTION/Result.lean:64:17: This simp argument is unused:
+  correctionPowerSeries
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hk, if_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_CORRECTION/Result.lean:68:12: This simp argument is unused:
+  correctionPowerSeries
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MERT_CORRECTION/Result.lean:115:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [8959/9036] Built Erdos448.stage4.contracts.GroupC (10s)
+✔ [8960/9036] Built Erdos448.dependencies.«DP-MEAN».stage8.Integration (9.0s)
+⚠ [8961/9036] Built Erdos448.dependencies.«DP-MERTENS».stage7.tasks.TASK_MSC_EXPINT.Result (10s)
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_EXPINT/Result.lean:119:30: This simp argument is unused:
+  one_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Real.rpow_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_EXPINT/Result.lean:150:4: Unused tactic linter: `change
+  (∫ x : ℝ, x⁻¹ * (-Real.exp (-x)) ∂volume.restrict (Ioi z)) =
+    -(∫ x : ℝ, Real.exp (-x) / x ∂volume.restrict (Ioi z))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_EXPINT/Result.lean:193:16: `MeasureTheory.integral_diff` has been deprecated: Use `MeasureTheory.setIntegral_sdiff` instead
+
+Hint: Replace the deprecated name:
+  i̵n̵t̵e̵g̵r̵a̵l̵_̵d̵i̵f̵f̵s̲e̲t̲I̲n̲t̲e̲g̲r̲a̲l̲_̲s̲d̲i̲f̲f̲
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_EXPINT/Result.lean:196:15: `Set.mem_diff` has been deprecated: Use `Set.mem_sdiff` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵d̵i̵f̵f̵S̲e̲t̲.̲m̲e̲m̲_̲s̲d̲i̲f̲f̲
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_EXPINT/Result.lean:267:13: This simp argument is unused:
+  Real.norm_eq_abs
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [abs_of_pos (Real.exp_pos u), smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8962/9036] Built Erdos448.dependencies.«DP-MERTENS».stage7.tasks.TASK_MSC_ASSEMBLY.Result (10s)
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ASSEMBLY/Result.lean:77:39: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ASSEMBLY/Result.lean:90:39: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ASSEMBLY/Result.lean:78:14: This simp argument is unused:
+  a
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hp, hpG]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ASSEMBLY/Result.lean:100:8: `tendsto_finset_sum` has been deprecated: Use `tendsto_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  tendsto_finset_̵s̵S̲um
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ASSEMBLY/Result.lean:122:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ASSEMBLY/Result.lean:173:29: Variable name `H` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _H
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ASSEMBLY/Result.lean:257:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_ASSEMBLY/Result.lean:274:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [8963/9036] Built Erdos448.dependencies.«DP-MERTENS».stage7.tasks.TASK_MSC_FIRST_LEMMA.Result (10s)
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_FIRST_LEMMA/Result.lean:194:12: This simp argument is unused:
+  hprime
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hactive]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_FIRST_LEMMA/Result.lean:195:12: This simp argument is unused:
+  hprime
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hactive]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_FIRST_LEMMA/Result.lean:256:23: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_FIRST_LEMMA/Result.lean:257:23: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_FIRST_LEMMA/Result.lean:226:19: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Prod.snd] at hp₁ hk₁ hp₂ hk₂ heq ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_FIRST_LEMMA/Result.lean:226:29: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Prod.fst] at hp₁ hk₁ hp₂ hk₂ heq ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_FIRST_LEMMA/Result.lean:247:19: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Prod.snd] at hp hk ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_FIRST_LEMMA/Result.lean:247:29: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Prod.fst] at hp hk ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_FIRST_LEMMA/Result.lean:308:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_FIRST_LEMMA/Result.lean:319:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+info: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_FIRST_LEMMA/Result.lean:510:0: Erdos448.DPMertens.Tasks.MSCFirstLemma.result : Erdos448.DPMertens.Lowering.TASK_MSC_FIRST_LEMMA_Target
+info: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_FIRST_LEMMA/Result.lean:511:0: 'Erdos448.DPMertens.Tasks.MSCFirstLemma.result' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [8964/9036] Built Erdos448.stage4.contracts.GroupB (10s)
+warning: Erdos448/stage4/contracts/GroupB.lean:536:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/stage4/contracts/GroupB.lean:564:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/stage4/contracts/GroupB.lean:614:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/stage4/contracts/GroupB.lean:670:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/stage4/contracts/GroupB.lean:711:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/stage4/contracts/GroupB.lean:738:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/stage4/contracts/GroupB.lean:759:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/stage4/contracts/GroupB.lean:796:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/stage4/contracts/GroupB.lean:832:2: `@[expose]` has no effect; this declaration would be exposed by default
+warning: Erdos448/stage4/contracts/GroupB.lean:866:2: `@[expose]` has no effect; this declaration would be exposed by default
+⚠ [8965/9036] Built Erdos448.dependencies.«DP-MERTENS».stage7.tasks.TASK_MSC_TAIL.Result (11s)
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_TAIL/Result.lean:51:37: Unused tactic linter: `field_simp` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_TAIL/Result.lean:51:52: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_TAIL/Result.lean:51:37: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_TAIL/Result.lean:51:52: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_TAIL/Result.lean:108:2: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_TAIL/Result.lean:311:37: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_TAIL/Result.lean:444:19: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_TAIL/Result.lean:444:19: This simp argument is unused:
+  if_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_TAIL/Result.lean:562:31: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos448/dependencies/DP-MERTENS/stage7/tasks/TASK_MSC_TAIL/Result.lean:562:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [8966/9036] Built Erdos448.stage4.DependencyAdapters (5.1s)
+✔ [8967/9036] Built Erdos448.stage7.tasks.«ROOT-02».Threshold (5.1s)
+⚠ [8968/9036] Built Erdos448.stage7.tasks.«ROOT-02».MomentLocal (6.0s)
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:53:28: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:53:40: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:53:52: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:60:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:66:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:90:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:90:36: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:90:47: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:111:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:111:38: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:111:50: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:153:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:176:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:198:22: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:203:42: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:251:30: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:279:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:256:54: Variable name `hnu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hnu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:299:31: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:344:56: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:345:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:346:30: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:316:8: This simp argument is unused:
+  hmax_pow_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [roughIndicator_prime_pow hp, hnu0, hrough, hp_theta]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-02/MomentLocal.lean:346:54: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [roughIndicator_prime_pow hp, hnu0, if_false, if_pos htheta, hsigma, hp_theta, hp_sigma, hp_u,
+    Nat.cast_add_one, if_true, Nat.cast_zero, zero_add, one_div]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8969/9036] Built Erdos448.stage7.shared.LocalFactorFloor (5.4s)
+✔ [8970/9036] Built Erdos448.stage4.WrapupFamilies (5.4s)
+⚠ [8971/9036] Built Erdos448.stage7.tasks.«ROOT-02».RoughDensity (6.6s)
+warning: Erdos448/stage7/tasks/ROOT-02/RoughDensity.lean:183:66: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: Erdos448/stage7/tasks/ROOT-02/RoughDensity.lean:243:25: This simp argument is unused:
+  Nat.coprime_one_left
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hq_one, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-02/RoughDensity.lean:243:47: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hq_one, Nat.coprime_one_left]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-02/RoughDensity.lean:287:14: This simp argument is unused:
+  hn
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Nat.pos_of_ne_zero hn]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8972/9036] Built Erdos448.dependencies.«DP-MERTENS».stage8.Integration (5.2s)
+warning: Erdos448/dependencies/DP-MERTENS/stage8/Integration.lean:49:0: Definition `endpoints` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+✔ [8973/9036] Built Erdos448.stage6.TaskContracts (4.8s)
+✔ [8974/9036] Built Erdos448.stage7.tasks.«ROOT-02».Numerics (14s)
+⚠ [8975/9036] Built Erdos448.stage7.tasks.«ROOT-02».Mean (15s)
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:40:27: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:42:14: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [momentWeight, dif_pos zero_lt_one, moment, divisorSet, Nat.divisors_one, Finset.sum_singleton,
+    omegaBelowRaw, roughTau]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:73:28: This simp argument is unused:
+  one_le_lambda
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [momentWeight_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:364:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:380:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:380:25: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:397:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:397:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:397:42: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:401:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:401:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:401:42: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:417:29: Variable name `hA` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hA
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:454:32: This simp argument is unused:
+  hAB
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [f, hpB, hpBneg]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:455:24: This simp argument is unused:
+  hAB
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [f, hpA]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:505:50: This simp argument is unused:
+  mertensFactor
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [MomentIndex.q, ht, hs, hp2, hpX, hns]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:508:56: This simp argument is unused:
+  mertensFactor
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [MomentIndex.q, ht, hs, hu, hp2, hpX, hs']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:509:56: This simp argument is unused:
+  mertensFactor
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [MomentIndex.q, ht, hs, hu, hp2, hpX, hs']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-02/Mean.lean:585:57: This simp argument is unused:
+  le_max_left
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ambientUpper, (Real.log_pos one_lt_two).ne']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8976/9036] Built Erdos448.stage7.tasks.«ROOT-07».Partition (12s)
+warning: Erdos448/stage7/tasks/ROOT-07/Partition.lean:73:69: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+info: Erdos448/stage7/tasks/ROOT-07/Partition.lean:75:8: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos448/stage7/tasks/ROOT-07/Partition.lean:73:38: This simp argument is unused:
+  true_and
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hd0, hd'0, houter, and_true, dite_true, if_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8977/9036] Built Erdos448.stage7.tasks.«ROOT-13».recovered.P113117 (11s)
+warning: Erdos448/stage7/tasks/ROOT-13/recovered/P113117.lean:87:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/stage7/tasks/ROOT-13/recovered/P113117.lean:126:4: Unused tactic linter: `change (alpha ^ (-1 / s)) ^ z = alpha ^ ((-1 / s) * z)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [8978/9036] Built Erdos448.stage7.providers.«DP-MEAN-EXT001».Work (12s)
+⚠ [8979/9036] Built Erdos448.stage7.tasks.«ROOT-07».Smoothing (12s)
+warning: Erdos448/stage7/tasks/ROOT-07/Smoothing.lean:54:28: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-07/Smoothing.lean:54:40: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-07/Smoothing.lean:54:52: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-07/Smoothing.lean:73:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-07/Smoothing.lean:170:31: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-07/Smoothing.lean:181:67: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-07/Smoothing.lean:181:36: This simp argument is unused:
+  true_and
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hd, hd', houter, and_true, dite_true, if_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8980/9036] Built Erdos448.stage7.tasks.«ROOT-07».Transport (12s)
+warning: Erdos448/stage7/tasks/ROOT-07/Transport.lean:50:69: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-07/Transport.lean:73:47: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-07/Transport.lean:50:38: This simp argument is unused:
+  true_and
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hd0, hd'0, houter, and_true, dite_true, if_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-07/Transport.lean:73:27: This simp argument is unused:
+  true_and
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hz, and_true, if_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-07/Transport.lean:73:37: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hz, true_and, if_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-07/Transport.lean:140:69: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-07/Transport.lean:141:8: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos448/stage7/tasks/ROOT-07/Transport.lean:167:47: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-07/Transport.lean:140:38: This simp argument is unused:
+  true_and
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hd0, hd'0, houter, and_true, dite_true, if_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-07/Transport.lean:167:27: This simp argument is unused:
+  true_and
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hz, and_true, if_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-07/Transport.lean:234:69: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-07/Transport.lean:255:27: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-07/Transport.lean:234:38: This simp argument is unused:
+  true_and
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hd0, hd'0, houter, and_true, dite_true, if_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8981/9036] Built Erdos448.stage7.tasks.«ROOT-12».Work (13s)
+warning: Erdos448/stage7/tasks/ROOT-12/Work.lean:140:5: Variable name `hsigma` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hsigma
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-12/Work.lean:286:4: Unused tactic linter: `congr 1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos448/stage7/tasks/ROOT-12/Work.lean:462:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/stage7/tasks/ROOT-12/Work.lean:497:36: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+✔ [8982/9036] Built Erdos448.stage7.tasks.«ROOT-10».Work (14s)
+⚠ [8983/9036] Built Erdos448.stage7.tasks.«ROOT-13».recovered.P120FT (14s)
+warning: Erdos448/stage7/tasks/ROOT-13/recovered/P120FT.lean:44:40: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [8984/9036] Built Erdos448.stage7.tasks.«ROOT-07».Family (15s)
+warning: Erdos448/stage7/tasks/ROOT-07/Family.lean:20:0: Definition `adaptWeightType` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+warning: Erdos448/stage7/tasks/ROOT-07/Family.lean:66:4: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [8985/9036] Built Erdos448.stage7.tasks.«ROOT-11».Work (15s)
+warning: Erdos448/stage7/tasks/ROOT-11/Work.lean:194:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/stage7/tasks/ROOT-11/Work.lean:524:29: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-11/Work.lean:562:15: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-11/Work.lean:710:15: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-11/Work.lean:712:17: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-11/Work.lean:826:17: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-11/Work.lean:828:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-11/Work.lean:862:17: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-11/Work.lean:864:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-11/Work.lean:876:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-11/Work.lean:878:17: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-11/Work.lean:912:25: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-11/Work.lean:912:37: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [8986/9036] Built Erdos448.stage7.tasks.«ROOT-06».EulerEngine (15s)
+warning: Erdos448/stage7/tasks/ROOT-06/EulerEngine.lean:96:30: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-06/EulerEngine.lean:127:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-06/EulerEngine.lean:174:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-06/EulerEngine.lean:208:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-06/EulerEngine.lean:271:5: Variable name `hsz` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hsz
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-06/EulerEngine.lean:312:30: This simp argument is unused:
+  regularHighFactor
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [regularMidFactor, hmid, hnotHigh, hsp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-06/EulerEngine.lean:312:65: This simp argument is unused:
+  hsp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [regularMidFactor, regularHighFactor, hmid, hnotHigh]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8987/9036] Built Erdos448.stage7.tasks.«ROOT-06».LogBounds (11s)
+warning: Erdos448/stage7/tasks/ROOT-06/LogBounds.lean:28:28: Variable name `he0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _he0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8988/9036] Built Erdos448.stage7.tasks.«ROOT-13».recovered.P110112 (20s)
+warning: Erdos448/stage7/tasks/ROOT-13/recovered/P110112.lean:180:24: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/stage7/tasks/ROOT-13/recovered/P110112.lean:254:13: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-13/recovered/P110112.lean:256:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-13/recovered/P110112.lean:260:31: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: Erdos448/stage7/tasks/ROOT-13/recovered/P110112.lean:273:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-13/recovered/P110112.lean:242:35: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [8989/9036] Built Erdos448.stage7.tasks.«ROOT-05».candidates.«P050.Reindex» (8.7s)
+⚠ [8990/9036] Built Erdos448.stage7.tasks.«ROOT-06».ShiftEngine (8.9s)
+warning: Erdos448/stage7/tasks/ROOT-06/ShiftEngine.lean:57:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-06/ShiftEngine.lean:66:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-06/ShiftEngine.lean:66:37: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Erdos448/stage7/tasks/ROOT-06/ShiftEngine.lean:71:22: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Erdos448/stage7/tasks/ROOT-06/ShiftEngine.lean:71:37: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-06/ShiftEngine.lean:77:41: This simp argument is unused:
+  le_max_left
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hpx, hnot, exactShiftFactor]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-06/ShiftEngine.lean:79:22: This simp argument is unused:
+  exactShiftFactor
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hpx, hxp, le_max_right]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-06/ShiftEngine.lean:79:40: This simp argument is unused:
+  le_max_right
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hpx, hxp, exactShiftFactor]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8991/9036] Built Erdos448.stage7.tasks.«ROOT-06».GenericMean (9.8s)
+warning: Erdos448/stage7/tasks/ROOT-06/GenericMean.lean:46:33: This simp argument is unused:
+  le_max_left
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hw.normalized]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-06/GenericMean.lean:230:33: This simp argument is unused:
+  le_max_left
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hw.normalized]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8992/9036] Built Erdos448.stage7.tasks.«ROOT-06».Elementary (11s)
+warning: Erdos448/stage7/tasks/ROOT-06/Elementary.lean:71:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8993/9036] Built Erdos448.stage7.tasks.«ROOT-04».Helpers (9.5s)
+warning: Erdos448/stage7/tasks/ROOT-04/Helpers.lean:103:18: This simp argument is unused:
+  hprod.ne'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [goodU0]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8994/9036] Built Erdos448.stage7.foundation.P053.Work (10s)
+✔ [8995/9036] Built Erdos448.stage7.tasks.«ROOT-01».Elementary (9.6s)
+✔ [8996/9036] Built Erdos448.stage7.tasks.«ROOT-01».LocalProducts (9.8s)
+⚠ [8997/9036] Built Erdos448.stage7.foundation.«P068-P069».Work (13s)
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:59:42: Variable name `ht` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ht
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:137:46: Variable name `hN` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hN
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: Erdos448/stage7/foundation/P068-P069/Work.lean:234:56: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: Erdos448/stage7/foundation/P068-P069/Work.lean:255:42: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:234:35: This simp argument is unused:
+  A
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Nat.cast_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:234:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:234:52: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:296:92: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:305:37: Variable name `hbeta_one` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hbeta_one
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:326:94: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:354:78: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: Erdos448/stage7/foundation/P068-P069/Work.lean:456:56: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: Erdos448/stage7/foundation/P068-P069/Work.lean:540:57: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:456:35: This simp argument is unused:
+  A
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Nat.cast_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:377:4: Unused tactic linter: `push_cast [Nat.cast_sub (show 1 ≤ N by omega)]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:456:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:456:52: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:495:59: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:540:29: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:540:53: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:581:41: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:681:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/stage7/foundation/P068-P069/Work.lean:746:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8998/9036] Built Erdos448.stage7.tasks.«ROOT-02».Tails (10s)
+warning: Erdos448/stage7/tasks/ROOT-02/Tails.lean:168:13: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-02/Tails.lean:231:15: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [8999/9036] Built Erdos448.stage7.tasks.«ROOT-03».Work (10s)
+warning: Erdos448/stage7/tasks/ROOT-03/Work.lean:37:16: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-03/Work.lean:89:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-03/Work.lean:166:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-03/Work.lean:279:10: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-03/Work.lean:279:22: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-03/Work.lean:279:35: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+info: Erdos448/stage7/tasks/ROOT-03/Work.lean:372:0: Erdos448.Stage7.ROOT03.Work.result : ROOT03Target
+info: Erdos448/stage7/tasks/ROOT-03/Work.lean:373:0: 'Erdos448.Stage7.ROOT03.Work.result' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [9000/9036] Built Erdos448.stage7.tasks.«ROOT-08».Work (16s)
+warning: Erdos448/stage7/tasks/ROOT-08/Work.lean:99:53: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/stage7/tasks/ROOT-08/Work.lean:109:53: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9001/9036] Built Erdos448.stage7.tasks.«ROOT-05».recovered.P051AE (14s)
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051AE.lean:28:31: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051AE.lean:40:38: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051AE.lean:40:50: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051AE.lean:40:62: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051AE.lean:58:31: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051AE.lean:75:31: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051AE.lean:92:38: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051AE.lean:118:18: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051AE.lean:133:27: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051AE.lean:138:29: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051AE.lean:138:41: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051AE.lean:138:53: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051AE.lean:182:48: This simp argument is unused:
+  le_max_left
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ha.normalized, hb.normalized]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051AE.lean:601:19: This simp argument is unused:
+  ha.normalized
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [fn, T, hb.normalized]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051AE.lean:775:12: Unused tactic linter: `change shift a b (p ^ i) ≤ max (localShift a b p i) (a (p ^ i))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051AE.lean:836:0: Definition `recoveredExports` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+⚠ [9002/9036] Built Erdos448.stage7.tasks.«ROOT-06».RegularBounds (8.2s)
+warning: Erdos448/stage7/tasks/ROOT-06/RegularBounds.lean:122:23: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+✔ [9003/9036] Built Erdos448.stage7.tasks.«ROOT-13».Recovered (7.7s)
+✔ [9004/9036] Built Erdos448.stage7.tasks.«ROOT-04».FiniteSupport (7.2s)
+⚠ [9005/9036] Built Erdos448.stage7.tasks.«ROOT-07».WindowTransport (11s)
+warning: Erdos448/stage7/tasks/ROOT-07/WindowTransport.lean:58:8: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [add_comm]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Erdos448/stage7/tasks/ROOT-07/WindowTransport.lean:66:18: Variable name `hb` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hb
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-07/WindowTransport.lean:82:18: Variable name `hb` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hb
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-07/WindowTransport.lean:117:39: Variable name `htheta` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _htheta
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-07/WindowTransport.lean:282:5: Variable name `hd` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hd
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-07/WindowTransport.lean:282:18: Variable name `hd'` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hd'
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-07/WindowTransport.lean:350:57: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-07/WindowTransport.lean:418:56: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/stage7/tasks/ROOT-07/WindowTransport.lean:533:57: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-07/WindowTransport.lean:770:57: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+⚠ [9006/9036] Built Erdos448.stage7.tasks.«ROOT-04».Reindex (7.9s)
+warning: Erdos448/stage7/tasks/ROOT-04/Reindex.lean:118:8: Variable name `d'` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _d'
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9007/9036] Built Erdos448.stage7.tasks.«ROOT-04».Pointwise (9.1s)
+⚠ [9008/9036] Built Erdos448.stage7.tasks.«ROOT-02».Grid (8.9s)
+warning: Erdos448/stage7/tasks/ROOT-02/Grid.lean:124:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/Grid.lean:135:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/Grid.lean:320:15: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/Grid.lean:355:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos448/stage7/tasks/ROOT-02/Grid.lean:356:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos448/stage7/tasks/ROOT-02/Grid.lean:357:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos448/stage7/tasks/ROOT-02/Grid.lean:358:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Erdos448/stage7/tasks/ROOT-02/Grid.lean:480:43: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-02/Grid.lean:514:25: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/Grid.lean:515:25: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9009/9036] Built Erdos448.stage7.tasks.«ROOT-09».Work (9.5s)
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:57:28: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:57:40: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:57:52: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:76:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:216:30: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:254:13: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:263:17: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:263:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:273:17: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:273:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:282:17: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:282:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:284:17: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:284:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:429:31: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:440:67: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:440:36: This simp argument is unused:
+  true_and
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hd, hd', houter, and_true, dite_true, if_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:527:15: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:529:17: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:532:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:533:19: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:556:15: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:558:17: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:561:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:621:15: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:623:17: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:626:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:633:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:664:15: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:666:17: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:669:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:777:8: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [add_comm]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:785:18: Variable name `hb` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hb
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:933:57: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1154:39: This simp argument is unused:
+  one_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.zero_add, pow_zero, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1171:13: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1180:17: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1180:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1190:17: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1190:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1195:17: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1195:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1197:17: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1197:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1272:15: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1274:17: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1277:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1302:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1452:57: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1599:23: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1628:26: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1633:26: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Erdos448/stage7/tasks/ROOT-09/Work.lean:1744:23: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+✔ [9010/9036] Built Erdos448.stage7.tasks.«ROOT-13».Work (6.2s)
+✔ [9011/9036] Built Erdos448.stage7.tasks.«ROOT-06».MainNodes (6.8s)
+✔ [9012/9036] Built Erdos448.stage7.tasks.«ROOT-07».Work (5.5s)
+⚠ [9013/9036] Built Erdos448.stage7.tasks.«ROOT-05».recovered.P051VF4 (9.8s)
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:31:31: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:43:38: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:43:50: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:43:62: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:61:31: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:103:48: This simp argument is unused:
+  le_max_left
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ha.normalized, hb.normalized]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:446:19: This simp argument is unused:
+  ha.normalized
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [fn, T, hb.normalized]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:557:28: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:557:40: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:557:52: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:564:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:566:22: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:570:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:572:22: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:610:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:621:35: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:621:46: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:621:57: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/recovered/P051VF4.lean:640:31: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [9014/9036] Built Erdos448.stage7.tasks.«ROOT-04».Work (5.8s)
+warning: Erdos448/stage7/tasks/ROOT-04/Work.lean:73:29: This simp argument is unused:
+  hr
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hD, hD', hc, hr0, goodIndicator]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-04/Work.lean:211:5: Variable name `hy0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hy0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-04/Work.lean:211:19: Variable name `hy1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hy1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-04/Work.lean:298:13: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-04/Work.lean:298:25: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-04/Work.lean:299:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-04/Work.lean:460:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9015/9036] Built Erdos448.stage7.tasks.«ROOT-06».Smoothing (5.4s)
+warning: Erdos448/stage7/tasks/ROOT-06/Smoothing.lean:90:25: This simp argument is unused:
+  and_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [positiveNatsBelow, Nat.lt_ceil, Nat.one_le_iff_ne_zero, Nat.pos_iff_ne_zero, and_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-06/Smoothing.lean:90:40: This simp argument is unused:
+  and_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [positiveNatsBelow, Nat.lt_ceil, Nat.one_le_iff_ne_zero, Nat.pos_iff_ne_zero, and_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9016/9036] Built Erdos448.stage7.tasks.«ROOT-05».Recovered (4.6s)
+⚠ [9017/9036] Built Erdos448.stage7.tasks.«ROOT-01».EulerExpansion (19s)
+warning: Erdos448/stage7/tasks/ROOT-01/EulerExpansion.lean:72:17: This simp argument is unused:
+  notMem_empty
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [IsEmpty.forall_iff, forall_const, localCoefficientProduct, prod_empty]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-01/EulerExpansion.lean:72:31: This simp argument is unused:
+  IsEmpty.forall_iff
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [notMem_empty, forall_const, localCoefficientProduct, prod_empty]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-01/EulerExpansion.lean:72:51: This simp argument is unused:
+  forall_const
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [notMem_empty, IsEmpty.forall_iff, localCoefficientProduct, prod_empty]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9018/9036] Built Erdos448.stage7.tasks.«ROOT-02».AllU (9.7s)
+warning: Erdos448/stage7/tasks/ROOT-02/AllU.lean:140:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Erdos448/stage7/tasks/ROOT-02/AllU.lean:270:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/AllU.lean:270:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/AllU.lean:273:8: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/AllU.lean:292:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/AllU.lean:292:18: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [9019/9036] Built Erdos448.stage7.tasks.«ROOT-06».Outer (5.4s)
+info: Erdos448/stage7/tasks/ROOT-06/Outer.lean:91:48: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos448/stage7/tasks/ROOT-06/Outer.lean:91:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Erdos448/stage7/tasks/ROOT-06/Outer.lean:300:27: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-06/Outer.lean:300:36: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-06/Outer.lean:308:58: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Erdos448/stage7/tasks/ROOT-06/Outer.lean:313:27: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Erdos448/stage7/tasks/ROOT-06/Outer.lean:336:25: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-06/Outer.lean:336:34: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-06/Outer.lean:307:25: This simp argument is unused:
+  hd'pos
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hdpos, hcond, modifierWeight, mul_comm, mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-06/Outer.lean:307:66: This simp argument is unused:
+  mul_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hdpos, hd'pos, hcond, modifierWeight, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-06/Outer.lean:308:30: This simp argument is unused:
+  hd'pos
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hdpos, hcond, ↓reduceDIte, if_false, zero_le]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-06/Outer.lean:308:68: This simp argument is unused:
+  zero_le
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hdpos, hd'pos, hcond, ↓reduceDIte, if_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9020/9036] Built Erdos448.stage7.tasks.«ROOT-01».Summability (5.4s)
+warning: Erdos448/stage7/tasks/ROOT-01/Summability.lean:20:17: Variable name `hA` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hA
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-01/Summability.lean:139:23: `Nat.prod_pow_primeFactors_factorization` has been deprecated: Use `Nat.prod_primeFactors_coe_pow_factorization` instead
+
+Hint: Replace the deprecated name:
+  N̵a̵t̵.̵p̵r̵o̵d̵_̵p̵o̵w̵_̵p̵r̵i̵m̵e̵F̵a̵c̵t̵o̵r̵s̵_̵f̵a̵c̵t̵o̵r̵i̵z̵a̵t̵i̵o̵n̵p̲r̲o̲d̲_̲p̲r̲i̲m̲e̲F̲a̲c̲t̲o̲r̲s̲_̲c̲o̲e̲_̲p̲o̲w̲_̲f̲a̲c̲t̲o̲r̲i̲z̲a̲t̲i̲o̲n̲
+warning: Erdos448/stage7/tasks/ROOT-01/Summability.lean:152:29: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Summability.lean:153:4: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Summability.lean:265:10: `summable_of_finite_support` has been deprecated: Use `summable_of_hasFiniteSupport` instead
+
+Hint: Replace the deprecated name:
+  s̵u̵m̵m̵a̵b̵l̵e̵_̵o̵f̵_̵f̵i̵n̵i̵t̵e̵_̵s̵u̵p̵p̵o̵r̵t̵s̲u̲m̲m̲a̲b̲l̲e̲_̲o̲f̲_̲h̲a̲s̲F̲i̲n̲i̲t̲e̲S̲u̲p̲p̲o̲r̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Summability.lean:270:33: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Summability.lean:282:33: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Summability.lean:289:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hu.multiplicative.1, hv.multiplicative.1]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [9021/9036] Built Erdos448.stage7.tasks.«ROOT-05».candidates.«CU-P051G-H.Result» (6.4s)
+warning: Erdos448/stage7/tasks/ROOT-05/candidates/CU-P051G-H.Result.lean:177:48: This simp argument is unused:
+  le_max_left
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hw.normalized, hb.normalized]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: Erdos448/stage7/tasks/ROOT-05/candidates/CU-P051G-H.Result.lean:383:34: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos448/stage7/tasks/ROOT-05/candidates/CU-P051G-H.Result.lean:383:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9022/9036] Built Erdos448.stage7.tasks.«ROOT-02».Assembly (5.9s)
+warning: Erdos448/stage7/tasks/ROOT-02/Assembly.lean:70:28: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/Assembly.lean:70:41: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/Assembly.lean:98:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-02/Assembly.lean:100:21: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-02/Assembly.lean:121:21: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+✔ [9023/9036] Built Erdos448.stage7.tasks.«ROOT-06».Work (5.1s)
+⚠ [9024/9036] Built Erdos448.stage7.tasks.«ROOT-01».Decomposition (4.8s)
+warning: Erdos448/stage7/tasks/ROOT-01/Decomposition.lean:26:45: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-01/Decomposition.lean:33:43: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-01/Decomposition.lean:100:32: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9025/9036] Built Erdos448.stage7.tasks.«ROOT-02».Work (4.6s)
+⚠ [9026/9036] Built Erdos448.stage7.tasks.«ROOT-05».Work (5.3s)
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:122:13: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:124:15: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:125:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:137:13: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:137:25: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:138:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:150:13: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:150:25: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:151:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:228:24: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:228:36: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:234:15: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:234:27: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:234:40: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:278:13: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:278:25: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:346:13: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:346:25: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:347:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:359:13: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:359:25: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:360:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:378:15: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:469:13: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:469:25: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:473:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:477:15: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:477:27: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:477:40: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:486:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-05/Work.lean:389:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9027/9036] Built Erdos448.stage7.tasks.«ROOT-01».Reindex (4.4s)
+warning: Erdos448/stage7/tasks/ROOT-01/Reindex.lean:86:28: Variable name `hx` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hx
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-01/Reindex.lean:212:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Reindex.lean:214:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Reindex.lean:214:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Reindex.lean:220:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Reindex.lean:220:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Reindex.lean:222:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Reindex.lean:222:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Reindex.lean:224:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Reindex.lean:226:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Reindex.lean:226:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9028/9036] Built Erdos448.stage7.tasks.«ROOT-01».Components (4.9s)
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:67:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:67:40: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:67:52: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:71:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:71:47: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:71:59: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:73:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:73:45: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:82:8: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:82:10: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:119:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:133:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:139:34: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:113:5: Variable name `hsum` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hsum
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:243:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:204:28: Variable name `hx` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hx
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:339:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:343:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/Components.lean:350:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9029/9036] Built Erdos448.stage7.tasks.«ROOT-01».ShiftedMean (5.0s)
+warning: Erdos448/stage7/tasks/ROOT-01/ShiftedMean.lean:70:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/ShiftedMean.lean:71:44: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-01/ShiftedMean.lean:73:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/ShiftedMean.lean:75:20: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Erdos448/stage7/tasks/ROOT-01/ShiftedMean.lean:63:5: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-01/ShiftedMean.lean:64:5: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-01/ShiftedMean.lean:65:36: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-01/ShiftedMean.lean:103:39: This simp argument is unused:
+  fullShiftCoefficient
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [cutoffShiftCoefficient, hpX, hfac, hv.multiplicative.1]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Erdos448/stage7/tasks/ROOT-01/ShiftedMean.lean:120:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/ShiftedMean.lean:120:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/ShiftedMean.lean:179:29: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/ShiftedMean.lean:179:47: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Erdos448/stage7/tasks/ROOT-01/ShiftedMean.lean:264:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-01/ShiftedMean.lean:206:5: Variable name `hu` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hu
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-01/ShiftedMean.lean:207:5: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-01/ShiftedMean.lean:409:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9030/9036] Built Erdos448.stage7.tasks.«ROOT-01».ErrorProducts (4.3s)
+warning: Erdos448/stage7/tasks/ROOT-01/ErrorProducts.lean:37:21: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Erdos448/stage7/tasks/ROOT-01/ErrorProducts.lean:39:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9031/9036] Built Erdos448.stage7.tasks.«ROOT-01».Normalization (5.0s)
+info: Erdos448/stage7/tasks/ROOT-01/Normalization.lean:137:4: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Erdos448/stage7/tasks/ROOT-01/Normalization.lean:175:5: Variable name `heta` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _heta
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9032/9036] Built Erdos448.stage7.tasks.«ROOT-01».IntervalProducts (4.1s)
+⚠ [9033/9036] Built Erdos448.stage7.tasks.«ROOT-01».Work (6.5s)
+warning: Erdos448/stage7/tasks/ROOT-01/Work.lean:138:12: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Erdos448/stage7/tasks/ROOT-01/Work.lean:274:5: Variable name `hF` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hF
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-01/Work.lean:301:5: Variable name `hK` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hK
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-01/Work.lean:376:5: Variable name `hPerr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hPerr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Erdos448/stage7/tasks/ROOT-01/Work.lean:727:14: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+✔ [9034/9036] Built Erdos448.stage8.Integration (4.2s)
+✔ [9035/9036] Built Solution (4.2s)
+Build completed successfully (9036 jobs).

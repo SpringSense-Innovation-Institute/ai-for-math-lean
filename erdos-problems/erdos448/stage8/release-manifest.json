@@ -1,0 +1,54 @@
+{
+  "status": "S8_ROOT_CLOSED",
+  "project_path": ".",
+  "paths": {
+    "challenge": "Challenge.lean",
+    "solution": "Solution.lean",
+    "comparator": "comparator.json",
+    "metadata": "formalization.yaml",
+    "ledger": "stage8/claim-ledger.md",
+    "preflight": "stage8/preflight.json",
+    "compatibility_port": "stage8/port-manifest.json"
+  },
+  "public_theorem": "Erdos448.negativeAnswer",
+  "provider": "Erdos448.WrapupFinal.negativeAnswer",
+  "statement": "not (forall epsilon > 0, strict divisor-ratio event has natural density one)",
+  "lean_toolchain": "leanprover/lean4:v4.35.0-rc2",
+  "mathlib_revision": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+  "policy_basis": "stage8/policy-lock.json",
+  "source_provenance": "stage8/input-provenance.json",
+  "authors": [
+    "Jingxuan Ding"
+  ],
+  "responsible_maintainers": [
+    "Jingxuan Ding"
+  ],
+  "affiliation": "SpringSense Innovation Institute",
+  "license": "MIT",
+  "human_confirmation": {
+    "date": "2026-10-03",
+    "evidence": "User replied 与erdos745一致 to the grouped identity/license/repository/authorization question; actual Erdős 745 metadata confirms these values.",
+    "reference_metadata_commit": "b8fec11a636dbced52ab76ca778a03ec455bd4d5"
+  },
+  "repository_url": null,
+  "verified_code_commit": "5a2796ba0421cf48dd2f08c3424697e46abfc4de",
+  "submission_commit": null,
+  "PALOMAR_READY": false,
+  "local_profile": "local-unsandboxed-macos",
+  "official_protected_preflight": "NOT_RUN",
+  "pushed": false,
+  "submitted": false,
+  "remaining_human_fields": [
+    "public GitHub repository URL"
+  ],
+  "remaining_external_actions": [
+    "Provide a public GitHub repository URL and authorize publication if desired",
+    "Run the pinned official protected Linux workflow on the selected submission SHA",
+    "Submit to Palomar only after authorization"
+  ],
+  "proof_receipt": "stage8/evidence/local-5a2796ba0421/receipt.json",
+  "local_checks": "PASS",
+  "candidate_selection": "Current Git HEAD is a receipts/documentation-only descendant of verified_code_commit; exact proof/config fingerprints are enforced by the frozen receipt.",
+  "sorry_count_solution_closure": 0,
+  "challenge_protocol_sorry_count": 1
+}

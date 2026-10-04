@@ -1,0 +1,8 @@
+source_requirements: {"schema_version": 1, "module_required": true, "maximum_lines": 10000, "files_checked": 105}
+metadata: PASS
+comparator_config: PASS
+toolchain_floor: PASS
+dependency_pins: PASS
+root_license_presence: PASS
+This is an intake subset. SPDX detection, trusted Challenge isolation,
+Linux protection and official workflow execution are separate gates.
