@@ -1,0 +1,183 @@
+{
+  "status": "S8_ROOT_CLOSED",
+  "S8_ROOT_CLOSED": true,
+  "MATH_CLOSED": true,
+  "KERNEL_CLOSED": true,
+  "FORMALIZATION_COMPLETE": true,
+  "PALOMAR_READY": false,
+  "project_path": ".",
+  "comparator_config": "comparator.json",
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "public_declarations": [
+    "Erdos745.Palomar.sparseEvolution"
+  ],
+  "internal_provider": "Erdos745.WrapUp.atlas",
+  "lean_toolchain": "leanprover/lean4:v4.35.0-rc2",
+  "mathlib_revision": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+  "palomar_policy_basis": {
+    "retrieved_date": "2026-10-03",
+    "policy_repository": "https://github.com/PalomarRegistry/PalomarPolicy",
+    "policy_commit": "96b034cc31a72a63d4f4041911dce337a85c9a04",
+    "submission_repository": "https://github.com/PalomarRegistry/PalomarSubmission",
+    "submission_commit": "65f0154ed776cd26c224254aa57b379137f28b0d",
+    "template_repository": "https://github.com/PalomarRegistry/PalomarTemplate",
+    "template_commit": "2891de4c48955af824969a263d31b25e7a9a1406",
+    "formalization_schema": "v0.4",
+    "workflow": "PalomarRegistry/PalomarSubmission/.github/workflows/submission.yml",
+    "execution_profile": "palomar-standard-v1"
+  },
+  "authors": [
+    {
+      "name": "Jingxuan Ding",
+      "affiliation": "SpringSense Innovation Institute",
+      "evidence": "Explicit user confirmation"
+    }
+  ],
+  "license": "MIT",
+  "repository_url": null,
+  "repository_role": "substantive-development",
+  "publicly_pushed": false,
+  "commit_sha": "b8fec11a636dbced52ab76ca778a03ec455bd4d5",
+  "release_frozen": false,
+  "proof_authority": {
+    "completed_baseline": "d3c8e613b32839d1221d79d1bf5b5fb7da06fe87",
+    "uniform_center_constant": 12,
+    "quantifier_order": "exists C > 0, forall M, bareSuper M implies eventually bound",
+    "current_cleanup_scope": "Documentation layout and Lean comments only; no statement, definition, proof term, assumption or toolchain change.",
+    "normalized_sources_sha256": "0baa7554722c91b8b4ef9f5499abdcf06d27cb3af977936fcb1c7b1c2db95a78",
+    "mathematical_worker_stages_rerun": false
+  },
+  "input_snapshot": {
+    "path": "stage8/evidence/original-proof-snapshot.tar.gz",
+    "sha256": "e8be04ef91e3157aafdfcc3cf1c2243b31b3fcb14ba370e1ba8bc1999559a00f",
+    "historical_recovery_commit": "d3c8e613b32839d1221d79d1bf5b5fb7da06fe87"
+  },
+  "mechanical_checks": {
+    "source_and_statement_audit": {
+      "status": "PASS",
+      "public_definitions": 57,
+      "evidence": "stage8/evidence/intake.json"
+    },
+    "build": {
+      "status": "PASS",
+      "command": "lake build",
+      "exit_code": 0,
+      "jobs": 9007,
+      "log_sha256": "69e04b5e7a6e81237879266bfe7f6e3897094953da1fe23e499648f20e414f39"
+    },
+    "axioms": {
+      "status": "PASS",
+      "permitted": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "command": "lake env lean scripts/AxiomAudit.lean",
+      "evidence": "stage8/evidence/axioms.log",
+      "reports": 20
+    },
+    "comparator": {
+      "status": "PASS",
+      "command": "./scripts/verify-comparator.sh --local",
+      "sandboxed": false,
+      "evidence": "stage8/evidence/comparator.log",
+      "exit_code": 0,
+      "transcript_format": "Selected unmodified verifier output; compiler warnings omitted.",
+      "raw_transcript_sha256": "2cf2cb1de533a75bb5d9bd7398706141c973847552615d2bd5852bc23b10a38a"
+    },
+    "NanoDa": "PASS",
+    "con_ron": "PASS, 73872 declarations in verified mode",
+    "metadata": {
+      "status": "PASS",
+      "official_intake": "PASS",
+      "published_schema": "v0.4 PASS",
+      "evidence": "stage8/evidence/intake.json"
+    },
+    "official_source_policy": "PASS",
+    "official_toolchain_policy": "PASS",
+    "dependency_checkouts": "PASS, nine exact clean pins",
+    "official_allowlist": {
+      "status": "PASS for unchanged dependency closure",
+      "verification_checkpoint": "d3c8e613b32839d1221d79d1bf5b5fb7da06fe87"
+    },
+    "official_full_protected_workflow": "NOT_RUN; host is macOS",
+    "clean_checkout": {
+      "status": "PASS for approved proof baseline",
+      "commit_sha": "305a224130646ec1fb48a43db2cb14eec777cc2d",
+      "project_artifacts_initially_empty": true,
+      "only_dependency_caches_reused": true
+    },
+    "independent_challenge_compile": {
+      "status": "PASS",
+      "command": "lake env lean Challenge.lean",
+      "exit_code": 0,
+      "protocol_placeholders": 1
+    },
+    "exported_Lean_kernel": "PASS",
+    "clean_submission_archive": {
+      "status": "PASS",
+      "commit_sha": "1e5ca866823ef162d54573fe89796b836fd4408a",
+      "main_git_history_required": false,
+      "source_and_statement_audit": "PASS without a .git directory",
+      "independent_challenge_compile": "PASS, exit 0, no project build cache",
+      "cache_reuse": "Only pinned dependency checkouts and build caches",
+      "full_fresh_solution_rebuild": "Not repeated for this comment-only cleanup; full fresh build passed at the approved proof baseline. Current checkout build and all three kernel replays passed."
+    },
+    "license": {
+      "root_license_file": "PASS",
+      "spdx_identifier": "MIT",
+      "metadata_matches_authorized_license": true,
+      "permission_and_disclaimer_match_spdx": "PASS",
+      "canonical_source": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+      "canonical_text_sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+      "file": "LICENSE",
+      "sha256": "6b557fefe4936463dd2dac21303a9fff7844a8c3cdb65c9dda8f748edcc22568",
+      "official_spdx_detector": "NOT_RUN; pinned Ruby/Bundler dependencies are unavailable on this host; included in the pending official Linux preflight"
+    },
+    "metadata_clean_archive": {
+      "status": "PASS",
+      "commit_sha": "b8fec11a636dbced52ab76ca778a03ec455bd4d5",
+      "official_intake_and_v04_schema": "PASS",
+      "receipt_identical_to_checkout": true,
+      "main_git_history_required": false,
+      "only_pinned_dependency_checkouts_reused": true,
+      "proof_and_verifier_configuration_unchanged_from": "de1169de28bedffe446f6ef4ed2f6201cce38ae4",
+      "full_fresh_solution_rebuild": "Not repeated for metadata/license-only changes; existing build and kernel receipts remain bound to identical proof sources and verifier configuration."
+    }
+  },
+  "official_workflow_config": ".github/workflows/palomar-preflight.yml",
+  "remaining_human_fields": [
+    {
+      "field": "public GitHub repository URL",
+      "status": "REQUESTED"
+    }
+  ],
+  "remaining_external_action": "Provide the public GitHub repository URL, publish the immutable candidate, then execute the pinned official protected Linux preflight and authorize submission.",
+  "verification_report_hashes": {
+    "stage8/evidence/intake.json": "f0ec25afd7e9953fbbfa615b279d10f7c3c91839c93f3bc6a632cf7b31650777",
+    "stage8/evidence/axioms.log": "877998bb1e29a7791c023dafbdda21b497f0cf8895e9aac564d42d5d53ba1c60",
+    "stage8/evidence/comparator.log": "0ba4bac7863ed4eb50fe2598a2dfda7b53c04d480491c121c5a57e052fc46353"
+  },
+  "cleanup": {
+    "removed_obsolete_files": 38,
+    "lean_files_with_comment_cleanup": 69,
+    "statements_definitions_proof_tokens_unchanged": true,
+    "document_links": "PASS",
+    "script_syntax_and_argument_validation": "PASS"
+  },
+  "engineering_checkpoint_frozen": true,
+  "source_tree_sha256": "7614f1419343464600710a05b5ab7e969691fe9213e0305c3ca9e2bf8c228756",
+  "snapshot_role": "Immutable source/configuration/license/metadata checkpoint; following commit records receipts only. Publication remains pending public repository and official protected preflight.",
+  "responsible_maintainers": [
+    "Jingxuan Ding"
+  ],
+  "metadata_authorization": {
+    "date": "2026-10-03",
+    "author": "Jingxuan Ding",
+    "affiliation": "SpringSense Innovation Institute",
+    "responsible_maintainer": "Jingxuan Ding",
+    "spdx_license": "MIT",
+    "evidence": "Explicit user confirmation: LICENSE MIT, responsible_maintainers is also the author."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "full_protected_palomar_workflow_passed": false,
+  "public_definitions": {
+    "status": "PASS",
+    "count": 57
+  },
+  "lean_cleanup": {
+    "status": "PASS",
+    "baseline_commit": "d3c8e613b32839d1221d79d1bf5b5fb7da06fe87",
+    "source_files": 74,
+    "only_comments_or_whitespace_changed": true,
+    "normalized_sources_sha256": "0baa7554722c91b8b4ef9f5499abdcf06d27cb3af977936fcb1c7b1c2db95a78",
+    "solution_cone_forbidden_tokens": [],
+    "challenge_protocol_placeholders": 1
+  },
+  "dependency_checkouts": {
+    "status": "PASS",
+    "count": 9
+  },
+  "configuration_paths": "PASS",
+  "official_submission_revision": "65f0154ed776cd26c224254aa57b379137f28b0d",
+  "metadata": {
+    "status": "PASS"
+  },
+  "comparator_configuration": {
+    "status": "PASS"
+  },
+  "supported_toolchain": {
+    "status": "PASS"
+  },
+  "root_license_file": {
+    "status": "PASS"
+  },
+  "official_source_policy": {
+    "status": "PASS",
+    "report": {
+      "schema_version": 1,
+      "module_required": true,
+      "maximum_lines": 10000,
+      "files_checked": 75
+    },
+    "diagnostics": []
+  },
+  "published_v04_schema": {
+    "status": "PASS",
+    "diagnostics": []
+  }
+}
