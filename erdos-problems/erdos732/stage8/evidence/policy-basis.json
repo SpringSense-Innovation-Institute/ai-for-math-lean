@@ -1,0 +1,294 @@
+{
+  "retrieved_date": "2026-10-03",
+  "repositories": {
+    "PalomarPolicy": {
+      "url": "https://github.com/PalomarRegistry/PalomarPolicy",
+      "revision": "96b034cc31a72a63d4f4041911dce337a85c9a04"
+    },
+    "PalomarSubmission": {
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission",
+      "revision": "65f0154ed776cd26c224254aa57b379137f28b0d"
+    },
+    "PalomarTemplate": {
+      "url": "https://github.com/PalomarRegistry/PalomarTemplate",
+      "revision": "2891de4c48955af824969a263d31b25e7a9a1406"
+    }
+  },
+  "contract_files": {
+    "toolchains.json": {
+      "sha256": "fd40347e4b586e7c42233b35f11efb006d25033b9a7ded9565719edf7aa98354",
+      "contents": {
+        "schema_version": 2,
+        "minimum": "v4.35.0-rc2"
+      }
+    },
+    "formalization-profile.json": {
+      "sha256": "d695b838bbab69236f6e43afda6bd4d719a91099412351f89c3c2cfeb26d5131",
+      "contents": {
+        "schema_version": 4,
+        "title": "Palomar formalization.yaml repair profile",
+        "fields": {
+          "project.name": {
+            "label": "Project name",
+            "description": "The default public entry title for the formalized result or project.",
+            "input": "text",
+            "maximum": 300,
+            "repairable": true
+          },
+          "project.description": {
+            "label": "Project description",
+            "description": "A concise public account of the mathematical content and principal results of the formalization as a whole.",
+            "input": "prose",
+            "repairable": true
+          },
+          "project.authors": {
+            "label": "Project authors",
+            "description": "People who authored the formalization. Enter one person per line; Palomar does not infer authorship.",
+            "input": "people",
+            "repairable": true
+          },
+          "project.license": {
+            "label": "Project license",
+            "description": "The SPDX identifier for the repository license; it must agree with the repository license file.",
+            "input": "text",
+            "repairable": true
+          },
+          "project.responsible_maintainers": {
+            "label": "Responsible maintainers",
+            "description": "People responsible for the submitted formalization. Enter one person per line; Palomar does not infer this from authorship.",
+            "input": "people",
+            "repairable": true
+          },
+          "classification.arxiv": {
+            "label": "arXiv classifications",
+            "description": "One to eight arXiv category codes describing the mathematical content.",
+            "input": "text-list",
+            "repairable": true
+          },
+          "classification.msc2020": {
+            "label": "MSC 2020 classifications",
+            "description": "Up to eight MSC 2020 classification codes; leave empty if none apply.",
+            "input": "text-list",
+            "repairable": true
+          },
+          "sources": {
+            "label": "Mathematical sources",
+            "description": "A nonempty list of sources for the result. Every source needs a title and an accurate relationship; non-author credits use named contributor roles.",
+            "input": "sources",
+            "repairable": true
+          },
+          "automation.methods": {
+            "label": "Automation methods",
+            "description": "A nonempty list describing how the formalization was produced; use manual when no automated system was used.",
+            "input": "methods",
+            "repairable": true
+          },
+          "review.status": {
+            "label": "Review status",
+            "description": "The review completed before submission; this is metadata, not a Palomar endorsement.",
+            "input": "text",
+            "repairable": true
+          },
+          "repository.substantive_formalization": {
+            "label": "Substantive formalization",
+            "description": "Only for a thin wrapper: the owner/repository and full commit containing the substantive formalization.",
+            "input": "substantive-repository",
+            "repairable": true
+          }
+        }
+      }
+    },
+    "verification-profile.json": {
+      "sha256": "94fcd7906a1b6c076c0036d742e1c5add8625e49bb474818ec8924576dbf0caa",
+      "contents": {
+        "schema_version": 1,
+        "id": "palomar-standard-v1",
+        "runner": {
+          "provider": "github-hosted",
+          "label": "ubuntu-24.04",
+          "architecture": "x86_64"
+        },
+        "limits": {
+          "job_timeout_minutes": 350,
+          "execution_budget_seconds": 19800,
+          "minimum_workspace_free_bytes": 21474836480,
+          "tasks_max": 32768,
+          "open_files_max": 1048576,
+          "file_size_max_bytes": 1099511627776,
+          "memory_high_percent": 95,
+          "memory_max_percent": 98,
+          "minimum_host_memory_bytes": 15032385536
+        },
+        "trusted_tools": {
+          "toolchain_floor": "v4.35.0-rc2",
+          "bwrap_source_tag": "v0.12.0"
+        },
+        "cache_policy": "fresh submitted .lake state; pinned Mathlib cache artifacts when available"
+      }
+    },
+    "execution-profiles.json": {
+      "sha256": "6a940ec74ac122f3989f2468d479982472d928764a57646cbcb81f0dbf6b5e7b",
+      "contents": {
+        "schema_version": 1,
+        "default": "palomar-namespace-16x32-v1",
+        "profiles": {
+          "palomar-namespace-16x32-v1": {
+            "runner": {
+              "provider": "namespace",
+              "label": "nscloud-ubuntu-24.04-amd64-16x32-with-features",
+              "labels": [
+                "nscloud-ubuntu-24.04-amd64-16x32-with-features",
+                "namespace-features:container.privileged=true"
+              ],
+              "architecture": "x86_64"
+            },
+            "limits": {
+              "minimum_host_memory_bytes": 30064771072,
+              "job_timeout_minutes": 350,
+              "execution_budget_seconds": 19800
+            }
+          }
+        }
+      }
+    },
+    "allowed-challenge-repositories.json": {
+      "sha256": "bfb114daf5ead308052ccec85b1029aa0c875bebe6eec8f642df57f2ddbd8971",
+      "contents": {
+        "schema_version": 1,
+        "roots": [
+          {
+            "repository": "leanprover-community/mathlib4",
+            "repository_aliases": [],
+            "official_ref": "refs/heads/master",
+            "include_semver_release_tags": true,
+            "include_pinned_manifest_closure": true,
+            "trust_level": "high"
+          },
+          {
+            "repository": "TauCetiProject/TauCeti",
+            "repository_aliases": [
+              "FormalFrontier/TauCeti"
+            ],
+            "official_ref": "refs/heads/main",
+            "accepted_revisions": [
+              "221bb56a017bb794421eac4fa543d7a5e85add75"
+            ],
+            "include_pinned_manifest_closure": true,
+            "trust_level": "qualified"
+          },
+          {
+            "repository": "leanprover/cslib",
+            "repository_aliases": [],
+            "official_ref": "refs/heads/main",
+            "include_pinned_manifest_closure": true,
+            "trust_level": "qualified"
+          }
+        ]
+      }
+    },
+    "browser-preflight-policy.json": {
+      "sha256": "d3d0003b7a043695c5cb06c117253e248406e0723bbfe2cac50afb703fa97046",
+      "contents": {
+        "schema_version": 1,
+        "formalization_profile_version": 4,
+        "limits": {
+          "source_bytes": 524288000,
+          "configuration_bytes": 1048576,
+          "formalization_bytes": 262144,
+          "lean_source_lines": 10000
+        },
+        "lean_sources": {
+          "module_required": true,
+          "excluded_directories": [
+            ".git",
+            ".lake"
+          ],
+          "module_exempt_filenames": [
+            "lakefile.lean"
+          ],
+          "symlinks_allowed": false
+        },
+        "toolchain": {
+          "pattern": "^leanprover/lean4:v([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-rc([0-9]+))?$",
+          "minimum": "v4.35.0-rc2",
+          "normalization": "strip",
+          "prerelease_ordering": "rc-before-release"
+        },
+        "formalization": {
+          "repository_roles": [
+            "substantive-development",
+            "thin-wrapper"
+          ],
+          "source_relationship_categories": [
+            "adapts",
+            "background",
+            "formalizes",
+            "independently-proves",
+            "other"
+          ],
+          "classification_cardinality": {
+            "arxiv": [
+              1,
+              8
+            ],
+            "msc2020": [
+              0,
+              8
+            ]
+          }
+        },
+        "comparator": {
+          "required_keys": [
+            "challenge_module",
+            "permitted_axioms",
+            "solution_module",
+            "theorem_names"
+          ],
+          "allowed_keys": [
+            "challenge_module",
+            "definition_names",
+            "enable_nanoda",
+            "permitted_axioms",
+            "solution_module",
+            "theorem_names"
+          ],
+          "standard_axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        "deferred_checks": [
+          "classification-taxonomies",
+          "git-attributes-lfs",
+          "lakefile-toml",
+          "licensee",
+          "release-tag",
+          "substantive-repository",
+          "trusted-hashes",
+          "lean-source-requirements"
+        ]
+      }
+    },
+    "formalization.schema.json": {
+      "sha256": "22bd0b61631535fc68efbdf01e3013362437673ac836d721dfbdf80773244ec3",
+      "repository": "mathlib-initiative/formalization.yaml",
+      "revision": "99c678e569c7c4c0772db297c5ddd5e4c9b6322e"
+    },
+    "v0.4.schema.json": {
+      "sha256": "25ff6b25ca4511635aff4443cf20480c15e59dddf19591c730950b442ea54fce",
+      "repository": "mathlib-initiative/formalization.yaml",
+      "revision": "99c678e569c7c4c0772db297c5ddd5e4c9b6322e"
+    }
+  },
+  "submission_service": {
+    "url": "https://submit.palomar-registry.org/",
+    "retrieved_date": "2026-10-03",
+    "inspection": "Read using web tool; terminal HTTP request returned 403; no deploy revision exposed by rendered page."
+  },
+  "local_intake_runtime": {
+    "python": "/Users/coder-osman/.cache/palomar-release/venv/bin/python",
+    "PyYAML": "6.0.3",
+    "installation": "Installed platform wheel from PyPI; official lockfile lacks macOS/Python 3.14 wheel hashes. This is local intake tooling, not the official Linux runtime."
+  }
+}

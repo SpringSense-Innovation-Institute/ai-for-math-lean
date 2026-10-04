@@ -1,0 +1,350 @@
+--- original/LeanProject.lean
++++ release/LeanProject.lean
+@@ -1 +1,5 @@
+-import LeanProject.ErdosProblems.P732
++module
++
++public import LeanProject.ErdosProblems.P732
++
++@[expose] public section
+--- original/LeanProject/ErdosProblems/P732/Asymptotics.lean
++++ release/LeanProject/ErdosProblems/P732/Asymptotics.lean
+@@ -1,6 +1,10 @@
+-import LeanProject.ErdosProblems.P732.ProjectivePlane
+-import Mathlib.NumberTheory.Bertrand
+-import Mathlib.Data.Nat.Choose.Bounds
++module
++
++public import LeanProject.ErdosProblems.P732.ProjectivePlane
++public import Mathlib.NumberTheory.Bertrand
++public import Mathlib.Data.Nat.Choose.Bounds
++
++@[expose] public section
+ 
+ noncomputable section
+ open scoped Filter
+--- original/LeanProject/ErdosProblems/P732/Basic.lean
++++ release/LeanProject/ErdosProblems/P732/Basic.lean
+@@ -1,4 +1,8 @@
+-import Mathlib
++module
++
++public import Mathlib
++
++@[expose] public section
+ 
+ noncomputable section
+ 
+--- original/LeanProject/ErdosProblems/P732/Construction.lean
++++ release/LeanProject/ErdosProblems/P732/Construction.lean
+@@ -1,4 +1,8 @@
+-import LeanProject.ErdosProblems.P732.ProjectivePlane
++module
++
++public import LeanProject.ErdosProblems.P732.ProjectivePlane
++
++@[expose] public section
+ 
+ noncomputable section
+ open scoped BigOperators
+@@ -45,7 +49,8 @@
+ theorem alonList_get_left {q : ℕ} {ys : List ℕ}
+     (i : Fin (AlonList q ys).length) (hi : i.1 < ys.length) :
+     (AlonList q ys).get i = ys.get ⟨i.1, hi⟩ := by
+-  simp [AlonList, List.get_eq_getElem, List.getElem_append_left hi]
++  rw [List.get_eq_getElem, List.get_eq_getElem]
++  exact List.getElem_append_left hi
+ 
+ theorem alonList_get_right {q : ℕ} {ys : List ℕ}
+     (i : Fin (AlonList q ys).length) (hi : ys.length ≤ i.1) :
+@@ -221,7 +226,7 @@
+   by_cases hi : i.1 < ys.length
+   · have hidx : i = alonLeftIndex q ys ⟨i.1, hi⟩ := by
+       ext
+-      simp [alonLeftIndex, AlonList]
++      simp [alonLeftIndex, AlonList, Fin.cast, List.get_eq_getElem]
+     rw [hidx, constructionBlock_left, constructionLineIndex_left]
+     exact chosenLineSubset_subset π hys ⟨i.1, hi⟩
+   · let j : Fin (twoBlockCount q ys) := ⟨i.1 - ys.length, by
+@@ -230,7 +235,7 @@
+       omega⟩
+     have hidx : i = alonRightIndex q ys j := by
+       ext
+-      simp [alonRightIndex, AlonList, j]
++      simp [alonRightIndex, AlonList, Fin.cast, j]
+       omega
+     rw [hidx, constructionBlock_right, constructionLineIndex_right]
+     exact (Finset.mem_powersetCard.1 (Finset.mem_sdiff.1
+@@ -266,12 +271,12 @@
+ @[simp] theorem alonList_get_leftIndex {q : ℕ} {ys : List ℕ}
+     (i : Fin ys.length) :
+     (AlonList q ys).get (alonLeftIndex q ys i) = ys.get i := by
+-  simp [alonLeftIndex, AlonList]
++  simp [alonLeftIndex, AlonList, Fin.cast, List.get_eq_getElem]
+ 
+ @[simp] theorem alonList_get_rightIndex {q : ℕ} {ys : List ℕ}
+     (i : Fin (twoBlockCount q ys)) :
+     (AlonList q ys).get (alonRightIndex q ys i) = 2 := by
+-  simp [alonRightIndex, AlonList]
++  simp [alonRightIndex, AlonList, Fin.cast, List.get_eq_getElem]
+ 
+ theorem constructionBlock_card {q : ℕ} (π : ProjectivePlane q)
+     {ys : List ℕ} (hys : AdmissibleHead q ys)
+@@ -280,7 +285,7 @@
+   by_cases hi : i.1 < ys.length
+   · have hidx : i = alonLeftIndex q ys ⟨i.1, hi⟩ := by
+       ext
+-      simp [alonLeftIndex, AlonList]
++      simp [alonLeftIndex, AlonList, Fin.cast, List.get_eq_getElem]
+     rw [hidx, constructionBlock_left, alonList_get_leftIndex]
+     exact chosenLineSubset_card π hys ⟨i.1, hi⟩
+   · have hi' : ys.length ≤ i.1 := Nat.le_of_not_gt hi
+@@ -290,7 +295,7 @@
+       omega⟩
+     have hidx : i = alonRightIndex q ys j := by
+       ext
+-      simp [alonRightIndex, AlonList, j]
++      simp [alonRightIndex, AlonList, Fin.cast, j]
+       omega
+     rw [hidx, constructionBlock_right, alonList_get_rightIndex]
+     have hmem := ((missingPairEquiv π hys).symm j).2.2
+--- original/LeanProject/ErdosProblems/P732/Counting.lean
++++ release/LeanProject/ErdosProblems/P732/Counting.lean
+@@ -1,4 +1,8 @@
+-import LeanProject.ErdosProblems.P732.Construction
++module
++
++public import LeanProject.ErdosProblems.P732.Construction
++
++@[expose] public section
+ 
+ noncomputable section
+ open scoped BigOperators
+@@ -16,7 +20,7 @@
+ 
+ private theorem nonincreasing_iff_sortedGE {ys : List ℕ} :
+     Nonincreasing ys ↔ ys.SortedGE := by
+-  rfl
++  exact (List.sortedGE_iff_antitone_get (l := ys)).symm
+ 
+ private def admissibleHeadToSym (q : ℕ)
+     (ys : {ys : List ℕ // AdmissibleHead q ys}) :
+@@ -36,7 +40,7 @@
+   val := (s.1.map (fun x : headAlphabet q => (x : ℕ))).sort (· ≥ ·)
+   property := by
+     constructor
+-    · simp [headLength]
++    · simpa [headLength] using s.prop
+     constructor
+     · have hpair :
+           ((s.1.map (fun x : headAlphabet q => (x : ℕ))).sort (· ≥ ·)).Pairwise (· ≥ ·) :=
+@@ -68,7 +72,7 @@
+         Multiset.pairwise_sort _ _
+       exact hpair.sortedGE
+     · exact nonincreasing_iff_sortedGE.1 ys.2.nonincreasing
+-    · simpa [admissibleHeadOfSym, admissibleHeadToSym] using
++    · simpa [admissibleHeadOfSym, admissibleHeadToSym, Sym.mk] using
+         (List.mergeSort_perm ys.1 (fun x y : ℕ => x ≥ y))
+   right_inv := by
+     intro s
+--- original/LeanProject/ErdosProblems/P732/FiniteFieldCard.lean
++++ release/LeanProject/ErdosProblems/P732/FiniteFieldCard.lean
+@@ -1,5 +1,9 @@
+-import LeanProject.ErdosProblems.P732.ProjectivePlane
+-import Mathlib.FieldTheory.Finite.GaloisField
++module
++
++public import LeanProject.ErdosProblems.P732.ProjectivePlane
++public import Mathlib.FieldTheory.Finite.GaloisField
++
++@[expose] public section
+ 
+ noncomputable section
+ 
+--- original/LeanProject/ErdosProblems/P732/LowerBound.lean
++++ release/LeanProject/ErdosProblems/P732/LowerBound.lean
+@@ -1,7 +1,11 @@
+-import LeanProject.ErdosProblems.P732.Asymptotics
+-import LeanProject.ErdosProblems.P732.Counting
+-import LeanProject.ErdosProblems.P732.Monotonicity
+-import LeanProject.ErdosProblems.P732.ProjectivePlanePrimePower
++module
++
++public import LeanProject.ErdosProblems.P732.Asymptotics
++public import LeanProject.ErdosProblems.P732.Counting
++public import LeanProject.ErdosProblems.P732.Monotonicity
++public import LeanProject.ErdosProblems.P732.ProjectivePlanePrimePower
++
++@[expose] public section
+ 
+ noncomputable section
+ open scoped Filter
+--- original/LeanProject/ErdosProblems/P732/Monotonicity.lean
++++ release/LeanProject/ErdosProblems/P732/Monotonicity.lean
+@@ -1,4 +1,8 @@
+-import LeanProject.ErdosProblems.P732.Construction
++module
++
++public import LeanProject.ErdosProblems.P732.Construction
++
++@[expose] public section
+ 
+ noncomputable section
+ 
+@@ -25,7 +29,8 @@
+ theorem extendList_get_left {n N : ℕ} {xs : List ℕ}
+     (i : Fin (extendList n N xs).length) (hi : i.1 < xs.length) :
+     (extendList n N xs).get i = xs.get ⟨i.1, hi⟩ := by
+-  simp [extendList, List.get_eq_getElem, List.getElem_append_left hi]
++  rw [List.get_eq_getElem, List.get_eq_getElem]
++  exact List.getElem_append_left hi
+ 
+ theorem extendList_get_right {n N : ℕ} {xs : List ℕ}
+     (i : Fin (extendList n N xs).length) (hi : xs.length ≤ i.1) :
+@@ -57,7 +62,7 @@
+     exact extendList_take_left n N ys
+   exact (extendList_take_left n N xs).symm.trans (htake.trans hright)
+ 
+-private def oldPointSet {α : Type} [Fintype α] [DecidableEq α] (r : ℕ) :
++def oldPointSet {α : Type} [Fintype α] [DecidableEq α] (r : ℕ) :
+     Finset (α ⊕ Fin r) :=
+   (Finset.univ : Finset α).image Sum.inl
+ 
+@@ -131,7 +136,7 @@
+           subst yv
+           rfl
+ 
+-private def oldPointEmbedding (α : Type) (r : ℕ) : α ↪ α ⊕ Fin r :=
++def oldPointEmbedding (α : Type) (r : ℕ) : α ↪ α ⊕ Fin r :=
+   Function.Embedding.inl
+ 
+ def extendLeftIndex (n N : ℕ) (xs : List ℕ) (i : Fin xs.length) :
+@@ -200,7 +205,7 @@
+     have hget :
+         (extendList n N xs).get (extendLeftIndex n N xs j) = xs.get j := by
+       exact extendList_get_left (extendLeftIndex n N xs j) (by
+-        simp [extendLeftIndex, extendList])
++        simp [extendLeftIndex, extendList, Fin.cast])
+     rw [hget]
+     simp [oldPointEmbedding, hblock j]
+   · intro j
+@@ -208,7 +213,7 @@
+     have hget :
+         (extendList n N xs).get (extendRightIndex n N xs j) = 2 := by
+       exact extendList_get_right (extendRightIndex n N xs j) (by
+-        simp [extendRightIndex, extendList])
++        simp [extendRightIndex, extendList, Fin.cast])
+     rw [hget]
+     have hmem := (Finset.mem_sdiff.1 ((newPairEquiv hN hcard).symm j).2).1
+     exact (Finset.mem_powersetCard.1 hmem).2
+--- original/LeanProject/ErdosProblems/P732/ProjectivePlane/Cardinality.lean
++++ release/LeanProject/ErdosProblems/P732/ProjectivePlane/Cardinality.lean
+@@ -1,5 +1,9 @@
+-import LeanProject.ErdosProblems.P732.ProjectivePlane.MathlibGeometry
+-import Mathlib.LinearAlgebra.Projectivization.Cardinality
++module
++
++public import LeanProject.ErdosProblems.P732.ProjectivePlane.MathlibGeometry
++public import Mathlib.LinearAlgebra.Projectivization.Cardinality
++
++@[expose] public section
+ 
+ noncomputable section
+ 
+--- original/LeanProject/ErdosProblems/P732/ProjectivePlane/IndexedLines.lean
++++ release/LeanProject/ErdosProblems/P732/ProjectivePlane/IndexedLines.lean
+@@ -1,4 +1,8 @@
+-import LeanProject.ErdosProblems.P732.ProjectivePlane.Cardinality
++module
++
++public import LeanProject.ErdosProblems.P732.ProjectivePlane.Cardinality
++
++@[expose] public section
+ 
+ noncomputable section
+ 
+--- original/LeanProject/ErdosProblems/P732/ProjectivePlane/MathlibGeometry.lean
++++ release/LeanProject/ErdosProblems/P732/ProjectivePlane/MathlibGeometry.lean
+@@ -1,5 +1,9 @@
+-import LeanProject.ErdosProblems.P732.ProjectivePlane
+-import Mathlib.Combinatorics.Configuration
++module
++
++public import LeanProject.ErdosProblems.P732.ProjectivePlane
++public import Mathlib.Combinatorics.Configuration
++
++@[expose] public section
+ 
+ noncomputable section
+ 
+--- original/LeanProject/ErdosProblems/P732/ProjectivePlane/PairUnique.lean
++++ release/LeanProject/ErdosProblems/P732/ProjectivePlane/PairUnique.lean
+@@ -1,4 +1,8 @@
+-import LeanProject.ErdosProblems.P732.ProjectivePlane.IndexedLines
++module
++
++public import LeanProject.ErdosProblems.P732.ProjectivePlane.IndexedLines
++
++@[expose] public section
+ 
+ noncomputable section
+ 
+--- original/LeanProject/ErdosProblems/P732/ProjectivePlane.lean
++++ release/LeanProject/ErdosProblems/P732/ProjectivePlane.lean
+@@ -1,4 +1,8 @@
+-import LeanProject.ErdosProblems.P732.Basic
++module
++
++public import LeanProject.ErdosProblems.P732.Basic
++
++@[expose] public section
+ 
+ noncomputable section
+ 
+--- original/LeanProject/ErdosProblems/P732/ProjectivePlanePrimePower.lean
++++ release/LeanProject/ErdosProblems/P732/ProjectivePlanePrimePower.lean
+@@ -1,5 +1,9 @@
+-import LeanProject.ErdosProblems.P732.FiniteFieldCard
+-import LeanProject.ErdosProblems.P732.ProjectivePlane.PairUnique
++module
++
++public import LeanProject.ErdosProblems.P732.FiniteFieldCard
++public import LeanProject.ErdosProblems.P732.ProjectivePlane.PairUnique
++
++@[expose] public section
+ 
+ noncomputable section
+ 
+--- original/LeanProject/ErdosProblems/P732.lean
++++ release/LeanProject/ErdosProblems/P732.lean
+@@ -1,13 +1,17 @@
+-import LeanProject.ErdosProblems.P732.Basic
+-import LeanProject.ErdosProblems.P732.ProjectivePlane
+-import LeanProject.ErdosProblems.P732.Construction
+-import LeanProject.ErdosProblems.P732.Counting
+-import LeanProject.ErdosProblems.P732.FiniteFieldCard
+-import LeanProject.ErdosProblems.P732.ProjectivePlane.MathlibGeometry
+-import LeanProject.ErdosProblems.P732.ProjectivePlane.Cardinality
+-import LeanProject.ErdosProblems.P732.ProjectivePlane.IndexedLines
+-import LeanProject.ErdosProblems.P732.ProjectivePlane.PairUnique
+-import LeanProject.ErdosProblems.P732.ProjectivePlanePrimePower
+-import LeanProject.ErdosProblems.P732.Asymptotics
+-import LeanProject.ErdosProblems.P732.Monotonicity
+-import LeanProject.ErdosProblems.P732.LowerBound
++module
++
++public import LeanProject.ErdosProblems.P732.Basic
++public import LeanProject.ErdosProblems.P732.ProjectivePlane
++public import LeanProject.ErdosProblems.P732.Construction
++public import LeanProject.ErdosProblems.P732.Counting
++public import LeanProject.ErdosProblems.P732.FiniteFieldCard
++public import LeanProject.ErdosProblems.P732.ProjectivePlane.MathlibGeometry
++public import LeanProject.ErdosProblems.P732.ProjectivePlane.Cardinality
++public import LeanProject.ErdosProblems.P732.ProjectivePlane.IndexedLines
++public import LeanProject.ErdosProblems.P732.ProjectivePlane.PairUnique
++public import LeanProject.ErdosProblems.P732.ProjectivePlanePrimePower
++public import LeanProject.ErdosProblems.P732.Asymptotics
++public import LeanProject.ErdosProblems.P732.Monotonicity
++public import LeanProject.ErdosProblems.P732.LowerBound
++
++@[expose] public section

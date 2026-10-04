@@ -1,0 +1,4 @@
+'ErdosProblems.P732.Palomar.erdos732_yes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblems.P732.erdos732_yes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblems.P732.alon_exact_lower_bound_primePower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblems.P732.projectivePlane_of_primePower' depends on axioms: [propext, Classical.choice, Quot.sound]

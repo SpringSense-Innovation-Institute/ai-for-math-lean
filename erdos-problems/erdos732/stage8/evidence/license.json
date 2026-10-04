@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "spdx_identifier": "MIT",
+  "authorization": "User explicitly instructed same metadata/license as erdos745 on 2026-10-03.",
+  "root_license_sha256": "6b557fefe4936463dd2dac21303a9fff7844a8c3cdb65c9dda8f748edcc22568",
+  "canonical_text_sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+  "canonical_repository": "https://github.com/spdx/license-list-data",
+  "canonical_revision": "31ba1a50e5397e00a304dbadc76531740e89ee48",
+  "method": "Exact permission/disclaimer text match after whitespace normalization and replacement of copyright-holder line.",
+  "official_spdx_detector": "NOT_RUN: official Ruby/licensee runtime unavailable; required by pending official Linux workflow."
+}

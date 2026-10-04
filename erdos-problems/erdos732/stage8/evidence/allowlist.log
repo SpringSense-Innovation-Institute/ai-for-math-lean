@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "allowed": {
+    "mathlib": [
+      "leanprover-community/mathlib4",
+      "high"
+    ],
+    "batteries": [
+      "leanprover-community/mathlib4",
+      "high"
+    ],
+    "Cli": [
+      "leanprover-community/mathlib4",
+      "high"
+    ],
+    "importGraph": [
+      "leanprover-community/mathlib4",
+      "high"
+    ],
+    "LeanSearchClient": [
+      "leanprover-community/mathlib4",
+      "high"
+    ],
+    "proofwidgets": [
+      "leanprover-community/mathlib4",
+      "high"
+    ],
+    "plausible": [
+      "leanprover-community/mathlib4",
+      "high"
+    ],
+    "aesop": [
+      "leanprover-community/mathlib4",
+      "high"
+    ],
+    "Qq": [
+      "leanprover-community/mathlib4",
+      "high"
+    ]
+  },
+  "mathlib_toolchain": [
+    {
+      "revision": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+      "toolchain": "leanprover/lean4:v4.35.0-rc2"
+    }
+  ],
+  "official_revision": "65f0154ed776cd26c224254aa57b379137f28b0d",
+  "profile": "Official allowlist functions on an isolated local checkout, not full protected preflight."
+}
