@@ -1,0 +1,107 @@
+version: v0.4
+project:
+  name: 'Erdős 745: corrected sparse random-graph evolution atlas'
+  description: Component-size asymptotics in uniform labelled graphs G(n,M) across five sparse regimes.
+    The principal theorem combines fixed subcritical and supercritical lattice laws, barely subcritical
+    and supercritical exact-rate laws and giant-component bounds, and critical finite-rank Brownian-excursion
+    distribution limits.
+  authors:
+  - Jingxuan Ding
+  license: MIT
+  responsible_maintainers:
+  - Jingxuan Ding
+classification:
+  arxiv:
+  - math.PR
+  - math.CO
+  msc2020:
+  - 05C80
+  - 60F05
+sources:
+- title: On the Evolution of Random Graphs
+  authors:
+  - Paul Erdős
+  - Alfréd Rényi
+  type: article
+  location: Publications of the Mathematical Institute of the Hungarian Academy of Sciences 5 (1960),
+    17–61
+  relationship: background
+  note: Fixed-edge model and sparse component evolution context; the release is a pointwise five-regime
+    atlas.
+- title: On Tree Census and the Giant Component in Sparse Random Graphs
+  authors:
+  - Boris Pittel
+  type: article
+  location: Random Structures & Algorithms 1 (1990), 311–342
+  relationship: background
+  note: Tree census and giant-component results in both fixed-edge and independent-edge models; corpus
+    verified printed pp. 311–317.
+- title: Component Behavior Near the Critical Point of the Random Graph Process
+  authors:
+  - Tomasz Łuczak
+  type: article
+  location: Random Structures & Algorithms 1 (1990), 287–310; Theorem 3, printed p. 294
+  relationship: adapts
+  note: The near-critical branches retain the exact rate x-1-log x. Printed equations (2.8) and (2.10)
+    use a quadratic normalization whose unshifted limit needs the additional condition epsilon log(n epsilon^3)
+    → 0. See the claim ledger and docs/NORMALIZATION.md.
+- title: Brownian Excursions, Critical Random Graphs and the Multiplicative Coalescent
+  authors:
+  - David Aldous
+  id: doi:10.1214/aop/1024404421
+  type: article
+  location: https://doi.org/10.1214/aop/1024404421
+  relationship: adapts
+  note: Corollary 2 supplies the critical Brownian-excursion source context. The formal statement is for
+    fixed-edge sequences and finite-rank continuity rectangles, with explicit Brownian-law existence and
+    positive finite excursion ranks; it does not assert the full l² topology result.
+related_formalizations: []
+status:
+  scope: Five sparse pointwise edge-sequence regimes for uniform labelled G(n,M); no simultaneous graph-process
+    theorem or dense-regime classification. Challenge matches Core.AtlasStatement. The barely-supercritical
+    center-error constant is uniform across all edge sequences; the proof supplies 12.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms:
+  - propext
+  - Classical.choice
+  - Quot.sound
+  main_results:
+  - declaration: Erdos745.Palomar.sparseEvolution
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
+automation:
+  methods:
+  - method: agent
+    framework: MathMiner
+    tool_setup: Substantial LLM-assisted proof engineering and orchestration; Lean tactics and kernel
+      checking. Model identities for the historical proof runs are not established in the supplied archive.
+  notes: Mathematical sources, formalization authorship and automated proof engineering are distinct.
+    Lean kernel verification is mechanical evidence; model review is not mathematical verification. Independent
+    Palomar verification is recorded separately when actually executed.
+fidelity:
+  divergences: Exact-rate correction to the near-critical quadratic normalization; fixed-edge and finite-rank
+    critical statement rather than an unrestricted graph-process or full l² limit theorem. See stage8/CLAIM_LEDGER.md.
+review:
+  status: self-assessed
+  reviewers: []
+  notes: Public definitions match Core.AtlasStatement. Lean kernel, Comparator, NanoDa and con-ron were
+    run locally. No independent human mathematical review or official Palomar acceptance is claimed.
+alignment:
+  namespace: Erdos745
+  statements:
+  - source: Corrected five-regime sparse atlas, docs/STATEMENT.md FINAL-01–FINAL-05
+    lean: Erdos745.Palomar.sparseEvolution
+    module: Solution
+    status: exact public type and three permitted axioms verified on Lean 4.35.0-rc2
+    note: Direct bridge to Erdos745.WrapUp.atlas; Challenge retains identical definition bodies.
+acknowledgements: Jingxuan Ding is affiliated with SpringSense Innovation Institute. This formalization
+  uses Lean, Mathlib and MathMiner.
+repository:
+  role: substantive-development
