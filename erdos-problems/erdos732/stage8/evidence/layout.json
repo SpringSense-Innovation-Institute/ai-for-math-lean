@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "local_markdown_links": "PASS",
+  "archive_intake_byte_equivalent_to_checkout": true,
+  "tracked_file_count": 41,
+  "source_size_bytes": 178128,
+  "generated_artifacts_in_archive": false,
+  "project_git_history_required_for_build_or_intake": false,
+  "archive_checkpoint": "bdfb632c601fdda9792f904ae65fa62bd6136858"
+}

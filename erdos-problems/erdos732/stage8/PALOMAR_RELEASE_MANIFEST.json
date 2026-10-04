@@ -1,0 +1,647 @@
+{
+  "status": "S8_ROOT_CLOSED / LOCAL_CHECKS_PASS / EXTERNAL_ACTION_REQUIRED",
+  "S8_ROOT_CLOSED": true,
+  "PALOMAR_READY": false,
+  "project_path": ".",
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "comparator_config": "comparator.json",
+  "public_declarations": [
+    "ErdosProblems.P732.Palomar.erdos732_yes"
+  ],
+  "internal_provider": "ErdosProblems.P732.erdos732_yes",
+  "paths": {
+    "claim_ledger": "stage8/CLAIM_LEDGER.md",
+    "preflight": "stage8/PALOMAR_PREFLIGHT.md",
+    "statement_audit": "docs/STATEMENT.md",
+    "evidence": "stage8/evidence"
+  },
+  "lean_toolchain": "leanprover/lean4:v4.35.0-rc2",
+  "dependencies": [
+    {
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "type": "git",
+      "subDir": null,
+      "scope": "",
+      "rev": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+      "name": "mathlib",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+      "inherited": false,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/plausible",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912",
+      "name": "plausible",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "95e037bfdc31d3916ac615446847fb01960e2719",
+      "name": "LeanSearchClient",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/import-graph",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "10930f8138f0462dbd744a91fc03a16fae0e046f",
+      "name": "importGraph",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "4c70ac059693669e5756e32a7a94b57ee1e99dc5",
+      "name": "proofwidgets",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/aesop",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "75d936c7af167cc93fac0d31237682fc2204591d",
+      "name": "aesop",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/quote4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "786b7acdca7eb4e9c76c5d1d5bd810e7e5c56334",
+      "name": "Qq",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/batteries",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "ed9b316aabe389fec1ef43c3326ab48c7e59be42",
+      "name": "batteries",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4-cli",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover",
+      "rev": "2842b9871b04862f944c032e34052cb9448ccb71",
+      "name": "Cli",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.35.0-rc2",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    }
+  ],
+  "policy_basis": {
+    "retrieved_date": "2026-10-03",
+    "repositories": {
+      "PalomarPolicy": {
+        "url": "https://github.com/PalomarRegistry/PalomarPolicy",
+        "revision": "96b034cc31a72a63d4f4041911dce337a85c9a04"
+      },
+      "PalomarSubmission": {
+        "url": "https://github.com/PalomarRegistry/PalomarSubmission",
+        "revision": "65f0154ed776cd26c224254aa57b379137f28b0d"
+      },
+      "PalomarTemplate": {
+        "url": "https://github.com/PalomarRegistry/PalomarTemplate",
+        "revision": "2891de4c48955af824969a263d31b25e7a9a1406"
+      }
+    },
+    "contract_files": {
+      "toolchains.json": {
+        "sha256": "fd40347e4b586e7c42233b35f11efb006d25033b9a7ded9565719edf7aa98354",
+        "contents": {
+          "schema_version": 2,
+          "minimum": "v4.35.0-rc2"
+        }
+      },
+      "formalization-profile.json": {
+        "sha256": "d695b838bbab69236f6e43afda6bd4d719a91099412351f89c3c2cfeb26d5131",
+        "contents": {
+          "schema_version": 4,
+          "title": "Palomar formalization.yaml repair profile",
+          "fields": {
+            "project.name": {
+              "label": "Project name",
+              "description": "The default public entry title for the formalized result or project.",
+              "input": "text",
+              "maximum": 300,
+              "repairable": true
+            },
+            "project.description": {
+              "label": "Project description",
+              "description": "A concise public account of the mathematical content and principal results of the formalization as a whole.",
+              "input": "prose",
+              "repairable": true
+            },
+            "project.authors": {
+              "label": "Project authors",
+              "description": "People who authored the formalization. Enter one person per line; Palomar does not infer authorship.",
+              "input": "people",
+              "repairable": true
+            },
+            "project.license": {
+              "label": "Project license",
+              "description": "The SPDX identifier for the repository license; it must agree with the repository license file.",
+              "input": "text",
+              "repairable": true
+            },
+            "project.responsible_maintainers": {
+              "label": "Responsible maintainers",
+              "description": "People responsible for the submitted formalization. Enter one person per line; Palomar does not infer this from authorship.",
+              "input": "people",
+              "repairable": true
+            },
+            "classification.arxiv": {
+              "label": "arXiv classifications",
+              "description": "One to eight arXiv category codes describing the mathematical content.",
+              "input": "text-list",
+              "repairable": true
+            },
+            "classification.msc2020": {
+              "label": "MSC 2020 classifications",
+              "description": "Up to eight MSC 2020 classification codes; leave empty if none apply.",
+              "input": "text-list",
+              "repairable": true
+            },
+            "sources": {
+              "label": "Mathematical sources",
+              "description": "A nonempty list of sources for the result. Every source needs a title and an accurate relationship; non-author credits use named contributor roles.",
+              "input": "sources",
+              "repairable": true
+            },
+            "automation.methods": {
+              "label": "Automation methods",
+              "description": "A nonempty list describing how the formalization was produced; use manual when no automated system was used.",
+              "input": "methods",
+              "repairable": true
+            },
+            "review.status": {
+              "label": "Review status",
+              "description": "The review completed before submission; this is metadata, not a Palomar endorsement.",
+              "input": "text",
+              "repairable": true
+            },
+            "repository.substantive_formalization": {
+              "label": "Substantive formalization",
+              "description": "Only for a thin wrapper: the owner/repository and full commit containing the substantive formalization.",
+              "input": "substantive-repository",
+              "repairable": true
+            }
+          }
+        }
+      },
+      "verification-profile.json": {
+        "sha256": "94fcd7906a1b6c076c0036d742e1c5add8625e49bb474818ec8924576dbf0caa",
+        "contents": {
+          "schema_version": 1,
+          "id": "palomar-standard-v1",
+          "runner": {
+            "provider": "github-hosted",
+            "label": "ubuntu-24.04",
+            "architecture": "x86_64"
+          },
+          "limits": {
+            "job_timeout_minutes": 350,
+            "execution_budget_seconds": 19800,
+            "minimum_workspace_free_bytes": 21474836480,
+            "tasks_max": 32768,
+            "open_files_max": 1048576,
+            "file_size_max_bytes": 1099511627776,
+            "memory_high_percent": 95,
+            "memory_max_percent": 98,
+            "minimum_host_memory_bytes": 15032385536
+          },
+          "trusted_tools": {
+            "toolchain_floor": "v4.35.0-rc2",
+            "bwrap_source_tag": "v0.12.0"
+          },
+          "cache_policy": "fresh submitted .lake state; pinned Mathlib cache artifacts when available"
+        }
+      },
+      "execution-profiles.json": {
+        "sha256": "6a940ec74ac122f3989f2468d479982472d928764a57646cbcb81f0dbf6b5e7b",
+        "contents": {
+          "schema_version": 1,
+          "default": "palomar-namespace-16x32-v1",
+          "profiles": {
+            "palomar-namespace-16x32-v1": {
+              "runner": {
+                "provider": "namespace",
+                "label": "nscloud-ubuntu-24.04-amd64-16x32-with-features",
+                "labels": [
+                  "nscloud-ubuntu-24.04-amd64-16x32-with-features",
+                  "namespace-features:container.privileged=true"
+                ],
+                "architecture": "x86_64"
+              },
+              "limits": {
+                "minimum_host_memory_bytes": 30064771072,
+                "job_timeout_minutes": 350,
+                "execution_budget_seconds": 19800
+              }
+            }
+          }
+        }
+      },
+      "allowed-challenge-repositories.json": {
+        "sha256": "bfb114daf5ead308052ccec85b1029aa0c875bebe6eec8f642df57f2ddbd8971",
+        "contents": {
+          "schema_version": 1,
+          "roots": [
+            {
+              "repository": "leanprover-community/mathlib4",
+              "repository_aliases": [],
+              "official_ref": "refs/heads/master",
+              "include_semver_release_tags": true,
+              "include_pinned_manifest_closure": true,
+              "trust_level": "high"
+            },
+            {
+              "repository": "TauCetiProject/TauCeti",
+              "repository_aliases": [
+                "FormalFrontier/TauCeti"
+              ],
+              "official_ref": "refs/heads/main",
+              "accepted_revisions": [
+                "221bb56a017bb794421eac4fa543d7a5e85add75"
+              ],
+              "include_pinned_manifest_closure": true,
+              "trust_level": "qualified"
+            },
+            {
+              "repository": "leanprover/cslib",
+              "repository_aliases": [],
+              "official_ref": "refs/heads/main",
+              "include_pinned_manifest_closure": true,
+              "trust_level": "qualified"
+            }
+          ]
+        }
+      },
+      "browser-preflight-policy.json": {
+        "sha256": "d3d0003b7a043695c5cb06c117253e248406e0723bbfe2cac50afb703fa97046",
+        "contents": {
+          "schema_version": 1,
+          "formalization_profile_version": 4,
+          "limits": {
+            "source_bytes": 524288000,
+            "configuration_bytes": 1048576,
+            "formalization_bytes": 262144,
+            "lean_source_lines": 10000
+          },
+          "lean_sources": {
+            "module_required": true,
+            "excluded_directories": [
+              ".git",
+              ".lake"
+            ],
+            "module_exempt_filenames": [
+              "lakefile.lean"
+            ],
+            "symlinks_allowed": false
+          },
+          "toolchain": {
+            "pattern": "^leanprover/lean4:v([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-rc([0-9]+))?$",
+            "minimum": "v4.35.0-rc2",
+            "normalization": "strip",
+            "prerelease_ordering": "rc-before-release"
+          },
+          "formalization": {
+            "repository_roles": [
+              "substantive-development",
+              "thin-wrapper"
+            ],
+            "source_relationship_categories": [
+              "adapts",
+              "background",
+              "formalizes",
+              "independently-proves",
+              "other"
+            ],
+            "classification_cardinality": {
+              "arxiv": [
+                1,
+                8
+              ],
+              "msc2020": [
+                0,
+                8
+              ]
+            }
+          },
+          "comparator": {
+            "required_keys": [
+              "challenge_module",
+              "permitted_axioms",
+              "solution_module",
+              "theorem_names"
+            ],
+            "allowed_keys": [
+              "challenge_module",
+              "definition_names",
+              "enable_nanoda",
+              "permitted_axioms",
+              "solution_module",
+              "theorem_names"
+            ],
+            "standard_axioms": [
+              "Classical.choice",
+              "Quot.sound",
+              "propext"
+            ]
+          },
+          "deferred_checks": [
+            "classification-taxonomies",
+            "git-attributes-lfs",
+            "lakefile-toml",
+            "licensee",
+            "release-tag",
+            "substantive-repository",
+            "trusted-hashes",
+            "lean-source-requirements"
+          ]
+        }
+      },
+      "formalization.schema.json": {
+        "sha256": "22bd0b61631535fc68efbdf01e3013362437673ac836d721dfbdf80773244ec3",
+        "repository": "mathlib-initiative/formalization.yaml",
+        "revision": "99c678e569c7c4c0772db297c5ddd5e4c9b6322e"
+      },
+      "v0.4.schema.json": {
+        "sha256": "25ff6b25ca4511635aff4443cf20480c15e59dddf19591c730950b442ea54fce",
+        "repository": "mathlib-initiative/formalization.yaml",
+        "revision": "99c678e569c7c4c0772db297c5ddd5e4c9b6322e"
+      }
+    },
+    "submission_service": {
+      "url": "https://submit.palomar-registry.org/",
+      "retrieved_date": "2026-10-03",
+      "inspection": "Read using web tool; terminal HTTP request returned 403; no deploy revision exposed by rendered page."
+    },
+    "local_intake_runtime": {
+      "python": "/Users/coder-osman/.cache/palomar-release/venv/bin/python",
+      "PyYAML": "6.0.3",
+      "installation": "Installed platform wheel from PyPI; official lockfile lacks macOS/Python 3.14 wheel hashes. This is local intake tooling, not the official Linux runtime."
+    }
+  },
+  "authors": [
+    {
+      "name": "Jingxuan Ding",
+      "affiliation": "SpringSense Innovation Institute"
+    }
+  ],
+  "responsible_maintainers": [
+    "Jingxuan Ding"
+  ],
+  "license": "MIT",
+  "repository_url": null,
+  "repository_role": "substantive-development",
+  "publicly_pushed": false,
+  "submitted_to_palomar": false,
+  "verified_code_commit": "d8bcd2e47eec34a92a067d8558c559003259d828",
+  "submission_commit": null,
+  "original_archive": {
+    "path": "/Users/coder-osman/.cache/palomar-release/erdos732-original-20261003/original-source.tar.gz",
+    "sha256": "b01986037bcc699b81b0d278ef004bdb995acee9ba09fab0c98382423473fbca",
+    "retention": "Full original source/operational records and original .lake retained locally outside this release; not uploaded."
+  },
+  "port_scope": "Supported Lean/module exposure and List/Fin/Sym API compatibility; two private helper definitions made public for exposed callers. Canonical theorem signature text compared unchanged.",
+  "verification_profile": "local macOS unsandboxed audit; official protected Palomar workflow is separate",
+  "checks": {
+    "clean_build": {
+      "status": "PASS",
+      "command": "lake build",
+      "exit_code": 0,
+      "input_identity_sha256": "48731759e15540e4a2f246fe1cbfca752380e28ab2464e940e88459c6134996a",
+      "evidence": "stage8/evidence/clean-build.log",
+      "transcript_sha256": "a3a39dc90372ddf7161a66d35e85d783fafd8a8a4305a76c5b38f1da948e8312",
+      "project_artifacts_initially_empty": true,
+      "only_dependency_caches_reused": true,
+      "jobs": 8950,
+      "proof_inputs_identical_to": "d8bcd2e47eec34a92a067d8558c559003259d828",
+      "verified_commit": "06bed6b36023f900a90d5c9f88fd229721c45df3"
+    },
+    "standalone_challenge": {
+      "status": "PASS",
+      "command": "lake build Challenge (in independent Mathlib-only Lake project)",
+      "exit_code": 0,
+      "input_identity_sha256": "48731759e15540e4a2f246fe1cbfca752380e28ab2464e940e88459c6134996a",
+      "evidence": "stage8/evidence/standalone-challenge.log",
+      "transcript_sha256": "7ee801bbdcda60b79cdd105a82815ca6255be756d091906d47cfeb8ae4894607",
+      "candidate_lake_configuration_used": false,
+      "only_allowlisted_dependencies_present": true,
+      "protocol_placeholders": 1,
+      "verified_commit": "06bed6b36023f900a90d5c9f88fd229721c45df3"
+    },
+    "axioms_and_exact_type": {
+      "status": "PASS",
+      "command": "lake env lean scripts/AxiomAudit.lean",
+      "exit_code": 0,
+      "input_identity_sha256": "48731759e15540e4a2f246fe1cbfca752380e28ab2464e940e88459c6134996a",
+      "evidence": "stage8/evidence/axioms.log",
+      "transcript_sha256": "51c45a4d1c588ace8d9718b3baa91758bd021fa939f57ac02be5d4e3f8ff1014",
+      "permitted_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "declarations_reported": 4,
+      "proof_inputs_identical_to": "d8bcd2e47eec34a92a067d8558c559003259d828",
+      "verified_commit": "06bed6b36023f900a90d5c9f88fd229721c45df3"
+    },
+    "comparator_and_independent_kernels": {
+      "status": "PASS",
+      "command": "bash scripts/verify-comparator.sh --local",
+      "exit_code": 0,
+      "input_identity_sha256": "48731759e15540e4a2f246fe1cbfca752380e28ab2464e940e88459c6134996a",
+      "evidence": "stage8/evidence/comparator.log",
+      "transcript_sha256": "53d15782ad0dfbdc7c7564f3d1f1abddef034c1216afa2606b6435ae34d19045",
+      "sandboxed": false,
+      "Lean_kernel": "PASS",
+      "NanoDa": "PASS",
+      "con_ron": "PASS",
+      "con_ron_declarations": 43703,
+      "warning": "Sandbox disabled, this run is not trustworthy.",
+      "transcript_retention": "Full transcript retained, including warnings; no omitted failures.",
+      "verified_commit": "d8bcd2e47eec34a92a067d8558c559003259d828"
+    },
+    "official_intake": {
+      "status": "PASS",
+      "command": "python3 scripts/audit-release.py --official <PalomarSubmission at pinned SHA> --schema stage8/evidence/v0.4.schema.json",
+      "exit_code": 0,
+      "input_identity_sha256": "48731759e15540e4a2f246fe1cbfca752380e28ab2464e940e88459c6134996a",
+      "evidence": "stage8/evidence/intake.json",
+      "transcript_sha256": "6a4f31f81b4d3d2f633c74c528f54b30571f2d6490787b96409bcbc6fbc9e2ca",
+      "intake_input_identity_sha256": "ca59cdf206a93e244063ec57182b420511f1279e54122233fb98a599fc8e3f80",
+      "scope": "Official intake functions and published schema only; not full official preflight.",
+      "verified_commit": "bdfb632c601fdda9792f904ae65fa62bd6136858"
+    },
+    "official_allowlist": {
+      "status": "PASS",
+      "command": "PalomarSubmission package_allowlist and check_mathlib_toolchain on isolated checkout",
+      "exit_code": 0,
+      "input_identity_sha256": "48731759e15540e4a2f246fe1cbfca752380e28ab2464e940e88459c6134996a",
+      "evidence": "stage8/evidence/allowlist.log",
+      "transcript_sha256": "3d762182bd84556ea954d871b9c3816aa0592e551bdb132e370a17cd8adedc07",
+      "closure_count": 9,
+      "verified_commit": "bdfb632c601fdda9792f904ae65fa62bd6136858"
+    },
+    "clean_metadata_archive": {
+      "status": "PASS",
+      "command": "git archive metadata checkpoint; run scripts/audit-release.py without project .git or build artifacts",
+      "exit_code": 0,
+      "input_identity_sha256": "48731759e15540e4a2f246fe1cbfca752380e28ab2464e940e88459c6134996a",
+      "evidence": "stage8/evidence/archive-intake.json",
+      "transcript_sha256": "6a4f31f81b4d3d2f633c74c528f54b30571f2d6490787b96409bcbc6fbc9e2ca",
+      "receipt_identical_to_checkout": true,
+      "project_git_history_required": false,
+      "full_fresh_solution_rebuild": "Not repeated for metadata/license-only change; proof inputs are byte-identical to clean-build and kernel checkpoints.",
+      "verified_commit": "bdfb632c601fdda9792f904ae65fa62bd6136858"
+    },
+    "license_text": {
+      "status": "PASS",
+      "command": "Compare LICENSE permission/disclaimer with pinned SPDX MIT text",
+      "exit_code": 0,
+      "input_identity_sha256": "48731759e15540e4a2f246fe1cbfca752380e28ab2464e940e88459c6134996a",
+      "evidence": "stage8/evidence/license.json",
+      "transcript_sha256": "3e5d84b4a7031252cfd02952362122a73c9a68d8c55d2ceeecba11d70cf60b31",
+      "spdx": "MIT",
+      "metadata_matches_authorized_license": true,
+      "verified_commit": "bdfb632c601fdda9792f904ae65fa62bd6136858"
+    },
+    "source_port_signatures": {
+      "status": "PASS",
+      "command": "Compare all original theorem names/signature text; inspect source-port.diff",
+      "exit_code": 0,
+      "input_identity_sha256": "48731759e15540e4a2f246fe1cbfca752380e28ab2464e940e88459c6134996a",
+      "evidence": "stage8/evidence/source-port.json",
+      "transcript_sha256": "36ca74e1fcee6528d8158897c9b3d6ef8bff4ed81adb72ce3e5ed8003b6ed779",
+      "role": "Auxiliary source comparison; exact public type/Comparator and kernels provide mechanical proof evidence.",
+      "verified_commit": "bdfb632c601fdda9792f904ae65fa62bd6136858"
+    },
+    "source_layout_and_links": {
+      "status": "PASS",
+      "command": "Check archive contents, relative links, file policy and configuration paths",
+      "exit_code": 0,
+      "input_identity_sha256": "48731759e15540e4a2f246fe1cbfca752380e28ab2464e940e88459c6134996a",
+      "evidence": "stage8/evidence/layout.json",
+      "transcript_sha256": "25d457092ee139219e5662df5afb22474402e23bceb9e934380c01a9b6c1a719",
+      "verified_commit": "bdfb632c601fdda9792f904ae65fa62bd6136858"
+    },
+    "official_spdx_detector": {
+      "status": "NOT_RUN",
+      "command": "Official detect_license.rb with pinned licensee 10.0.0 (Linux workflow)",
+      "exit_code": null,
+      "input_identity": "Final selected candidate SHA recorded in Git note",
+      "reason": "Official Ruby/licensee runtime unavailable on this macOS host. Exact SPDX MIT permission/disclaimer text match passed locally."
+    },
+    "official_protected_preflight": {
+      "status": "NOT_RUN",
+      "command": "Pinned .github/workflows/palomar-preflight.yml full mode on selected public SHA",
+      "exit_code": null,
+      "execution_profile": "palomar-standard-v1",
+      "input_identity": "Final selected candidate SHA recorded in Git note",
+      "reason": "Host is macOS and no public repository URL/publication authorization was supplied."
+    }
+  },
+  "remaining_human_fields": [
+    "public GitHub repository URL"
+  ],
+  "external_actions": {
+    "public_repository_creation": "NOT_AUTHORIZED",
+    "push": "NOT_AUTHORIZED",
+    "registry_submission": "NOT_AUTHORIZED"
+  },
+  "evidence_policy": "Full final build/kernel/intake transcripts are retained under stage8/evidence; hashes bind their bytes. The original source archive is retained locally outside the release. No full project rebuild or kernel rerun is claimed for the metadata-only checkpoint.",
+  "MATH_CLOSED": true,
+  "KERNEL_CLOSED": true,
+  "FORMALIZATION_COMPLETE": true,
+  "local_technical_checks_passed": true,
+  "clean_build_commit": "06bed6b36023f900a90d5c9f88fd229721c45df3",
+  "frozen_source_metadata_commit": "bdfb632c601fdda9792f904ae65fa62bd6136858",
+  "selected_candidate_identity": "Full final HEAD is recorded in the palomar-release Git note; final receipt commit changes stage8 only.",
+  "engineering_checkpoint_frozen": true,
+  "input_identity": {
+    "status": "PASS",
+    "clean_build_commit": "06bed6b36023f900a90d5c9f88fd229721c45df3",
+    "kernel_verified_code_commit": "d8bcd2e47eec34a92a067d8558c559003259d828",
+    "frozen_source_metadata_commit": "bdfb632c601fdda9792f904ae65fa62bd6136858",
+    "proof_input_files_sha256": {
+      "Challenge.lean": "02ee9259ca0bfaed731dabee6e2dd770e8766630f7d1284b00c8c543275d5d00",
+      "LeanProject.lean": "7fb7d7d4b8e1ddb6231bac9624fd4329afac41c8596d15195695ae71be00c285",
+      "LeanProject/ErdosProblems/P732.lean": "891caacf9c3d6363756c04bd702c644f29c436e4e6f7f9188b115da54a1835d4",
+      "LeanProject/ErdosProblems/P732/Asymptotics.lean": "81f9d147c0a2ba3d87238929be776cd3d7a81232e3d441fb19dbe9eed2164f69",
+      "LeanProject/ErdosProblems/P732/Basic.lean": "7fea64466373d6e6015e80444c16f257e481016e77569685cc58836b50cace6f",
+      "LeanProject/ErdosProblems/P732/Construction.lean": "5f35e3a799da3e273552e1c4d778bbe40ab814d79f912ec93307d7e8db81aecc",
+      "LeanProject/ErdosProblems/P732/Counting.lean": "10040e206111b7061167231ffb8ee6ce946549cd329594801b92ec472b3256c9",
+      "LeanProject/ErdosProblems/P732/FiniteFieldCard.lean": "6cca7f2ba23fd2e7b3f963cc83894b32cbdbb09c01ad95860a9e19edd461ee80",
+      "LeanProject/ErdosProblems/P732/LowerBound.lean": "5df0df5d78ac02b5d2f239063839f1252c6f37340abcdbd87901815e6509de07",
+      "LeanProject/ErdosProblems/P732/Monotonicity.lean": "51b2db12c545165d91c1a81773056b02a7d2524b767f7693c01db077e3cf8f8c",
+      "LeanProject/ErdosProblems/P732/ProjectivePlane.lean": "3bec5e6751d025fd2e1a8142a84a3f7992642da198d8d4d2d87c9249898494db",
+      "LeanProject/ErdosProblems/P732/ProjectivePlane/Cardinality.lean": "5bb76382ebbf31c4ab08f59865de9a08e5518dedfad1118fa21a324383f55786",
+      "LeanProject/ErdosProblems/P732/ProjectivePlane/IndexedLines.lean": "030873c3bf566c0420e502f0d114836f1e09b49ce2385a629b8a9fffb6a17384",
+      "LeanProject/ErdosProblems/P732/ProjectivePlane/MathlibGeometry.lean": "e5d39825208fab8553b22f76c45209dec4b381eb80c8748f1def8d739e8c453d",
+      "LeanProject/ErdosProblems/P732/ProjectivePlane/PairUnique.lean": "57f2754f4fbceae301009910babfb5b4165efee30302c2d7b9e6a52f2531a21e",
+      "LeanProject/ErdosProblems/P732/ProjectivePlanePrimePower.lean": "6479068acc0acf566ad9688ef496b678e19c00649b46c284f0950f3bde057131",
+      "Solution.lean": "5d08c50b212f965434a844e5d2cf11b0c864a7e7b7a4065621631c1b5afc95f6",
+      "comparator.json": "2fbd7d5f323ff456ca88d3f0cad10aa8ae1f4ed83d842814cee2796188de4ad6",
+      "lake-manifest.json": "04922cc3abdd487aa1e9fcbc203bff5557264c04e7b76a7ef3d285e374494628",
+      "lakefile.toml": "394eaf019f318f74232e5ed9724cb30d2c69420bdd06f3a9f6a1f14e198b1c8f",
+      "lean-toolchain": "8dc8d6f560141069d9073e370611716ef77ada0da8ffa37e2149f44b2e63ac7a",
+      "scripts/AxiomAudit.lean": "991194107aaee2651cff7ead3c0f75ca02916d7f4d48da9537fe7e9111575012"
+    },
+    "proof_inputs_identical_across_commits": true,
+    "verifier_wrapper_identical_between_kernel_and_metadata_commits": true,
+    "difference_from_clean_build": "Only local wrapper fix, confirmed human metadata, root license and README; no Lean proof source or toolchain/dependency/Comparator configuration changed.",
+    "full_kernel_rerun_for_metadata": "Not repeated: kernel proof inputs are identical; official preflight remains required at final selected SHA.",
+    "proof_input_identity_sha256": "48731759e15540e4a2f246fe1cbfca752380e28ab2464e940e88459c6134996a"
+  },
+  "verifier_runtime": "stage8/evidence/runtime.json",
+  "metadata_authorization": {
+    "date": "2026-10-03",
+    "user_instruction": "\u4e0eerdos745\u4e00\u81f4",
+    "reference": "erdos745/formalization.yaml, LICENSE and stage8/PALOMAR_RELEASE_MANIFEST.json",
+    "confirmed_author": "Jingxuan Ding",
+    "confirmed_maintainer": "Jingxuan Ding",
+    "confirmed_affiliation": "SpringSense Innovation Institute",
+    "confirmed_spdx_license": "MIT"
+  },
+  "remaining_external_action": "Supply/authorize a public repository, publish the selected immutable candidate, then run the pinned official protected Linux preflight and authorize registry submission."
+}

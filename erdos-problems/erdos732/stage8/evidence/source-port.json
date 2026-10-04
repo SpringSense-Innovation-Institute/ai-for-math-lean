@@ -1,0 +1,142 @@
+{
+  "original_archive_sha256": "b01986037bcc699b81b0d278ef004bdb995acee9ba09fab0c98382423473fbca",
+  "source_files": {
+    "LeanProject.lean": {
+      "original_sha256": "83464a93db1afe88f0d250faa9b4395c901c6373243190fe028693353dd335d8",
+      "release_sha256": "7fb7d7d4b8e1ddb6231bac9624fd4329afac41c8596d15195695ae71be00c285"
+    },
+    "LeanProject/ErdosProblems/P732/Asymptotics.lean": {
+      "original_sha256": "27cd2aee6e43b923030467a0af5eba569db397e29880bb5d80fba9625d860e2f",
+      "release_sha256": "81f9d147c0a2ba3d87238929be776cd3d7a81232e3d441fb19dbe9eed2164f69"
+    },
+    "LeanProject/ErdosProblems/P732/Basic.lean": {
+      "original_sha256": "ff8c70f670b460d56336692ec2b9a30b9f7f0a276e6320a89554314bcea7503c",
+      "release_sha256": "7fea64466373d6e6015e80444c16f257e481016e77569685cc58836b50cace6f"
+    },
+    "LeanProject/ErdosProblems/P732/Construction.lean": {
+      "original_sha256": "52b82f8a04103371aef8497ba1a3e75202d4fccd65a4c0bf8691d658ab7cb5e4",
+      "release_sha256": "5f35e3a799da3e273552e1c4d778bbe40ab814d79f912ec93307d7e8db81aecc"
+    },
+    "LeanProject/ErdosProblems/P732/Counting.lean": {
+      "original_sha256": "98e0bad7621d7f62d6717ac46bf62cc2d8529541219b63c89ec562ae6765480a",
+      "release_sha256": "10040e206111b7061167231ffb8ee6ce946549cd329594801b92ec472b3256c9"
+    },
+    "LeanProject/ErdosProblems/P732/FiniteFieldCard.lean": {
+      "original_sha256": "a9c17d641ed11c01540be703e1138a424d12b90f13112f12b42d8a4dcb576b9a",
+      "release_sha256": "6cca7f2ba23fd2e7b3f963cc83894b32cbdbb09c01ad95860a9e19edd461ee80"
+    },
+    "LeanProject/ErdosProblems/P732/LowerBound.lean": {
+      "original_sha256": "83665f0e19b817d28e96ec73a805adebe854936114acf82c0f5abd372333bc51",
+      "release_sha256": "5df0df5d78ac02b5d2f239063839f1252c6f37340abcdbd87901815e6509de07"
+    },
+    "LeanProject/ErdosProblems/P732/Monotonicity.lean": {
+      "original_sha256": "78567ce7519659e864eb96ad353b911374334ad57941112aab5936ceaae3e868",
+      "release_sha256": "51b2db12c545165d91c1a81773056b02a7d2524b767f7693c01db077e3cf8f8c"
+    },
+    "LeanProject/ErdosProblems/P732/ProjectivePlane/Cardinality.lean": {
+      "original_sha256": "30713762fe2655570370f4e8e66c20f818c4e67e686afa41e425dc581e75df9b",
+      "release_sha256": "5bb76382ebbf31c4ab08f59865de9a08e5518dedfad1118fa21a324383f55786"
+    },
+    "LeanProject/ErdosProblems/P732/ProjectivePlane/IndexedLines.lean": {
+      "original_sha256": "6cc7ac9b5eda7456214f36b863c35889a17faafbd1c1b9827d18248826a081c4",
+      "release_sha256": "030873c3bf566c0420e502f0d114836f1e09b49ce2385a629b8a9fffb6a17384"
+    },
+    "LeanProject/ErdosProblems/P732/ProjectivePlane/MathlibGeometry.lean": {
+      "original_sha256": "34ca133e437b725e998175295c79243db5b205d2b4cb873108ad5658e1d75a6c",
+      "release_sha256": "e5d39825208fab8553b22f76c45209dec4b381eb80c8748f1def8d739e8c453d"
+    },
+    "LeanProject/ErdosProblems/P732/ProjectivePlane/PairUnique.lean": {
+      "original_sha256": "a3de665b4bbb4cb466d8caca82cf77849aa06b2dca5d2f82bbc3a528ae76489a",
+      "release_sha256": "57f2754f4fbceae301009910babfb5b4165efee30302c2d7b9e6a52f2531a21e"
+    },
+    "LeanProject/ErdosProblems/P732/ProjectivePlane.lean": {
+      "original_sha256": "51b42fc95814ca2446f2897ecfa04c644e8b384e92a91bf00aa57f67f6ded3aa",
+      "release_sha256": "3bec5e6751d025fd2e1a8142a84a3f7992642da198d8d4d2d87c9249898494db"
+    },
+    "LeanProject/ErdosProblems/P732/ProjectivePlanePrimePower.lean": {
+      "original_sha256": "2a7c79fe90fc9c352d9db376f4135133b5459e339bd413dcb926f52abc2c6c13",
+      "release_sha256": "6479068acc0acf566ad9688ef496b678e19c00649b46c284f0950f3bde057131"
+    },
+    "LeanProject/ErdosProblems/P732.lean": {
+      "original_sha256": "74738d6ce407c833689491db07c3b76ef8f4464c3e080e85b22e3e28022ddf51",
+      "release_sha256": "891caacf9c3d6363756c04bd702c644f29c436e4e6f7f9188b115da54a1835d4"
+    }
+  },
+  "signature_comparison": {
+    "LeanProject.lean": {
+      "status": "PASS",
+      "theorem_count": 0,
+      "method": "Source theorem signature text comparison; auxiliary to compiler/Comparator, not semantic equivalence."
+    },
+    "LeanProject/ErdosProblems/P732/Asymptotics.lean": {
+      "status": "PASS",
+      "theorem_count": 4,
+      "method": "Source theorem signature text comparison; auxiliary to compiler/Comparator, not semantic equivalence."
+    },
+    "LeanProject/ErdosProblems/P732/Basic.lean": {
+      "status": "PASS",
+      "theorem_count": 5,
+      "method": "Source theorem signature text comparison; auxiliary to compiler/Comparator, not semantic equivalence."
+    },
+    "LeanProject/ErdosProblems/P732/Construction.lean": {
+      "status": "PASS",
+      "theorem_count": 33,
+      "method": "Source theorem signature text comparison; auxiliary to compiler/Comparator, not semantic equivalence."
+    },
+    "LeanProject/ErdosProblems/P732/Counting.lean": {
+      "status": "PASS",
+      "theorem_count": 2,
+      "method": "Source theorem signature text comparison; auxiliary to compiler/Comparator, not semantic equivalence."
+    },
+    "LeanProject/ErdosProblems/P732/FiniteFieldCard.lean": {
+      "status": "PASS",
+      "theorem_count": 3,
+      "method": "Source theorem signature text comparison; auxiliary to compiler/Comparator, not semantic equivalence."
+    },
+    "LeanProject/ErdosProblems/P732/LowerBound.lean": {
+      "status": "PASS",
+      "theorem_count": 8,
+      "method": "Source theorem signature text comparison; auxiliary to compiler/Comparator, not semantic equivalence."
+    },
+    "LeanProject/ErdosProblems/P732/Monotonicity.lean": {
+      "status": "PASS",
+      "theorem_count": 20,
+      "method": "Source theorem signature text comparison; auxiliary to compiler/Comparator, not semantic equivalence."
+    },
+    "LeanProject/ErdosProblems/P732/ProjectivePlane/Cardinality.lean": {
+      "status": "PASS",
+      "theorem_count": 7,
+      "method": "Source theorem signature text comparison; auxiliary to compiler/Comparator, not semantic equivalence."
+    },
+    "LeanProject/ErdosProblems/P732/ProjectivePlane/IndexedLines.lean": {
+      "status": "PASS",
+      "theorem_count": 7,
+      "method": "Source theorem signature text comparison; auxiliary to compiler/Comparator, not semantic equivalence."
+    },
+    "LeanProject/ErdosProblems/P732/ProjectivePlane/MathlibGeometry.lean": {
+      "status": "PASS",
+      "theorem_count": 2,
+      "method": "Source theorem signature text comparison; auxiliary to compiler/Comparator, not semantic equivalence."
+    },
+    "LeanProject/ErdosProblems/P732/ProjectivePlane/PairUnique.lean": {
+      "status": "PASS",
+      "theorem_count": 1,
+      "method": "Source theorem signature text comparison; auxiliary to compiler/Comparator, not semantic equivalence."
+    },
+    "LeanProject/ErdosProblems/P732/ProjectivePlane.lean": {
+      "status": "PASS",
+      "theorem_count": 1,
+      "method": "Source theorem signature text comparison; auxiliary to compiler/Comparator, not semantic equivalence."
+    },
+    "LeanProject/ErdosProblems/P732/ProjectivePlanePrimePower.lean": {
+      "status": "PASS",
+      "theorem_count": 1,
+      "method": "Source theorem signature text comparison; auxiliary to compiler/Comparator, not semantic equivalence."
+    },
+    "LeanProject/ErdosProblems/P732.lean": {
+      "status": "PASS",
+      "theorem_count": 0,
+      "method": "Source theorem signature text comparison; auxiliary to compiler/Comparator, not semantic equivalence."
+    }
+  }
+}

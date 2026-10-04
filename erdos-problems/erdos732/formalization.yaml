@@ -1,0 +1,59 @@
+version: v0.4
+project:
+  name: "Erdős 732: counting block-compatible sequences"
+  description: >-
+    Formalization of Alon's affirmative answer to Erdős problem 732.
+    For some absolute real constant c > 0 and all sufficiently large natural n,
+    the number of nonincreasing block-size lists realized by pairwise balanced
+    designs on n points is at least exp(c * sqrt(n) * log(n)). The development
+    constructs projective planes over finite fields of prime-power cardinality,
+    augments selected line subsets by uncovered pairs, counts admissible heads,
+    and extends designs to larger point sets. The logarithm is natural.
+  authors: [Jingxuan Ding]
+  responsible_maintainers: [Jingxuan Ding]
+  license: MIT
+classification:
+  arxiv: [math.CO]
+  msc2020: [05B05, 05B25]
+sources:
+  - title: "Blocking partial designs and block-compatible sequences"
+    authors: [Noga Alon]
+    type: paper
+    location: "https://web.math.princeton.edu/~nalon/PDFS/remark191.pdf"
+    relationship: formalizes
+    note: "Problem 1.2 (p. 1), Theorem 2.3 and construction (p. 3). Only the qualitative exponential lower bound is advertised."
+status:
+  scope: "Erdős 732 / Problem 1.2; the partial-design blocking result (Problem 1.1) is outside the formalization."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: [propext, Classical.choice, Quot.sound]
+automation:
+  methods:
+    - method: agent
+      framework: Codex
+      tool_setup: "Palomar release packaging, module-system and Mathlib compatibility port, compiler and independent-kernel audits."
+      prompting_notes: "Reuse the supplied proof development and preserve its mathematical statements."
+  notes: >-
+    The supplied development included an archived ChatGPT paper analysis.
+    Its historical proof-engineering models and extent of human involvement
+    were not recorded in auditable provenance. No historical model identity
+    is inferred. This release session packages and checks the existing proof.
+fidelity:
+  divergences: >-
+    Uses an arbitrary finite type of cardinality n in place of [n]; counts
+    nonincreasing lists of block sizes, not labeled designs. Natural logarithms
+    and a coarse positive constant replace the source's base-2 asymptotic
+    coefficient. The order q+1 in the first sentence of the proof of
+    Theorem 2.3 is read as order q, consistently with its stated cardinalities.
+review:
+  status: agent-reviewed
+  notes: "Statement and definition audit by Codex; no independent human peer review is claimed. Mechanical check outcomes are recorded separately in stage8."
+alignment:
+  namespace: ErdosProblems.P732
+  statements:
+    - source: "Problem 1.2 and Theorem 2.3"
+      lean: ErdosProblems.P732.Palomar.erdos732_yes
+      module: Solution
+      status: proved
+      note: "Direct bridge to ErdosProblems.P732.erdos732_yes."
+acknowledgements: "Jingxuan Ding is affiliated with SpringSense Innovation Institute. Noga Alon supplied the mathematical argument; Mathlib and Lean supply libraries and proof infrastructure."

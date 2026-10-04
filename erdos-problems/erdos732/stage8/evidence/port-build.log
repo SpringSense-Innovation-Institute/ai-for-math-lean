@@ -1,0 +1,165 @@
+⚠ [8931/8950] Replayed LeanProject.ErdosProblems.P732.Basic
+warning: LeanProject/ErdosProblems/P732/Basic.lean:81:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LeanProject/ErdosProblems/P732/Basic.lean:82:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8933/8950] Replayed LeanProject.ErdosProblems.P732.Construction
+warning: LeanProject/ErdosProblems/P732/Construction.lean:229:47: This simp argument is unused:
+  List.get_eq_getElem
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [alonLeftIndex, AlonList, Fin.cast]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LeanProject/ErdosProblems/P732/Construction.lean:288:47: This simp argument is unused:
+  List.get_eq_getElem
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [alonLeftIndex, AlonList, Fin.cast]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8934/8950] Replayed LeanProject.ErdosProblems.P732.FiniteFieldCard
+warning: LeanProject/ErdosProblems/P732/FiniteFieldCard.lean:33:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LeanProject/ErdosProblems/P732/FiniteFieldCard.lean:35:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8936/8950] Replayed LeanProject.ErdosProblems.P732.ProjectivePlane.Cardinality
+warning: LeanProject/ErdosProblems/P732/ProjectivePlane/Cardinality.lean:26:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LeanProject/ErdosProblems/P732/ProjectivePlane/Cardinality.lean:45:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LeanProject/ErdosProblems/P732/ProjectivePlane/Cardinality.lean:52:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8937/8950] Replayed LeanProject.ErdosProblems.P732.ProjectivePlane.IndexedLines
+warning: LeanProject/ErdosProblems/P732/ProjectivePlane/IndexedLines.lean:22:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LeanProject/ErdosProblems/P732/ProjectivePlane/IndexedLines.lean:23:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LeanProject/ErdosProblems/P732/ProjectivePlane/IndexedLines.lean:68:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8939/8950] Replayed LeanProject.ErdosProblems.P732.ProjectivePlanePrimePower
+warning: LeanProject/ErdosProblems/P732/ProjectivePlanePrimePower.lean:35:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LeanProject/ErdosProblems/P732/ProjectivePlanePrimePower.lean:36:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LeanProject/ErdosProblems/P732/ProjectivePlanePrimePower.lean:37:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8941/8950] Replayed LeanProject.ErdosProblems.P732.Monotonicity
+warning: LeanProject/ErdosProblems/P732/Monotonicity.lean:360:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LeanProject/ErdosProblems/P732/Monotonicity.lean:361:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8942/8950] Replayed Challenge
+warning: Challenge.lean:48:8: declaration uses `sorry`
+✔ [8944/8950] Built LeanProject.ErdosProblems.P732.Counting (9.6s)
+⚠ [8945/8950] Built LeanProject.ErdosProblems.P732.LowerBound (4.0s)
+warning: LeanProject/ErdosProblems/P732/LowerBound.lean:78:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: LeanProject/ErdosProblems/P732/LowerBound.lean:79:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [8946/8950] Built LeanProject.ErdosProblems.P732 (4.0s)
+✔ [8947/8950] Built Solution (4.0s)
+✔ [8949/8950] Built LeanProject (3.9s)
+Build completed successfully (8950 jobs).

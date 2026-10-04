@@ -1,0 +1,72 @@
+{
+  "profile": "local-static-intake",
+  "official_protected_preflight": "NOT_RUN",
+  "official_submission_revision": "65f0154ed776cd26c224254aa57b379137f28b0d",
+  "schema_sha256": "25ff6b25ca4511635aff4443cf20480c15e59dddf19591c730950b442ea54fce",
+  "input_files_sha256": {
+    "Challenge.lean": "02ee9259ca0bfaed731dabee6e2dd770e8766630f7d1284b00c8c543275d5d00",
+    "LICENSE": "6b557fefe4936463dd2dac21303a9fff7844a8c3cdb65c9dda8f748edcc22568",
+    "LeanProject/ErdosProblems/P732/Asymptotics.lean": "81f9d147c0a2ba3d87238929be776cd3d7a81232e3d441fb19dbe9eed2164f69",
+    "LeanProject/ErdosProblems/P732/Basic.lean": "7fea64466373d6e6015e80444c16f257e481016e77569685cc58836b50cace6f",
+    "LeanProject/ErdosProblems/P732/Construction.lean": "5f35e3a799da3e273552e1c4d778bbe40ab814d79f912ec93307d7e8db81aecc",
+    "LeanProject/ErdosProblems/P732/Counting.lean": "10040e206111b7061167231ffb8ee6ce946549cd329594801b92ec472b3256c9",
+    "LeanProject/ErdosProblems/P732/FiniteFieldCard.lean": "6cca7f2ba23fd2e7b3f963cc83894b32cbdbb09c01ad95860a9e19edd461ee80",
+    "LeanProject/ErdosProblems/P732/LowerBound.lean": "5df0df5d78ac02b5d2f239063839f1252c6f37340abcdbd87901815e6509de07",
+    "LeanProject/ErdosProblems/P732/Monotonicity.lean": "51b2db12c545165d91c1a81773056b02a7d2524b767f7693c01db077e3cf8f8c",
+    "LeanProject/ErdosProblems/P732/ProjectivePlane/Cardinality.lean": "5bb76382ebbf31c4ab08f59865de9a08e5518dedfad1118fa21a324383f55786",
+    "LeanProject/ErdosProblems/P732/ProjectivePlane/IndexedLines.lean": "030873c3bf566c0420e502f0d114836f1e09b49ce2385a629b8a9fffb6a17384",
+    "LeanProject/ErdosProblems/P732/ProjectivePlane/MathlibGeometry.lean": "e5d39825208fab8553b22f76c45209dec4b381eb80c8748f1def8d739e8c453d",
+    "LeanProject/ErdosProblems/P732/ProjectivePlane/PairUnique.lean": "57f2754f4fbceae301009910babfb5b4165efee30302c2d7b9e6a52f2531a21e",
+    "LeanProject/ErdosProblems/P732/ProjectivePlane.lean": "3bec5e6751d025fd2e1a8142a84a3f7992642da198d8d4d2d87c9249898494db",
+    "LeanProject/ErdosProblems/P732/ProjectivePlanePrimePower.lean": "6479068acc0acf566ad9688ef496b678e19c00649b46c284f0950f3bde057131",
+    "LeanProject/ErdosProblems/P732.lean": "891caacf9c3d6363756c04bd702c644f29c436e4e6f7f9188b115da54a1835d4",
+    "LeanProject.lean": "7fb7d7d4b8e1ddb6231bac9624fd4329afac41c8596d15195695ae71be00c285",
+    "Solution.lean": "5d08c50b212f965434a844e5d2cf11b0c864a7e7b7a4065621631c1b5afc95f6",
+    "comparator.json": "2fbd7d5f323ff456ca88d3f0cad10aa8ae1f4ed83d842814cee2796188de4ad6",
+    "formalization.yaml": "0a35c5cb1c6eea6a677153beb1210bbc864c82285d0f802cfccd13767c166ac6",
+    "lake-manifest.json": "04922cc3abdd487aa1e9fcbc203bff5557264c04e7b76a7ef3d285e374494628",
+    "lakefile.toml": "394eaf019f318f74232e5ed9724cb30d2c69420bdd06f3a9f6a1f14e198b1c8f",
+    "lean-toolchain": "8dc8d6f560141069d9073e370611716ef77ada0da8ffa37e2149f44b2e63ac7a",
+    "scripts/AxiomAudit.lean": "991194107aaee2651cff7ead3c0f75ca02916d7f4d48da9537fe7e9111575012",
+    "scripts/audit-release.py": "e0d5087d9efbeafaea1defa1258cdb9c49e8f68862c8c06391b362bbcee47e54",
+    "scripts/verify-comparator.sh": "dc32fb6c47be97498d1ca443beb0fed64c5845787d9771f4530f1185f7059e59"
+  },
+  "input_identity_sha256": "ca59cdf206a93e244063ec57182b420511f1279e54122233fb98a599fc8e3f80",
+  "checks": {
+    "metadata": {
+      "status": "PASS"
+    },
+    "comparator_configuration": {
+      "status": "PASS"
+    },
+    "supported_toolchain": {
+      "status": "PASS"
+    },
+    "root_license_file": {
+      "status": "PASS"
+    },
+    "official_source_policy": {
+      "status": "PASS",
+      "report": {
+        "schema_version": 1,
+        "module_required": true,
+        "maximum_lines": 10000,
+        "files_checked": 18
+      },
+      "diagnostics": []
+    },
+    "v04_schema": {
+      "status": "PASS",
+      "diagnostics": []
+    },
+    "dependency_pins": {
+      "status": "PASS",
+      "count": 9,
+      "diagnostics": []
+    },
+    "configuration_paths": {
+      "status": "PASS",
+      "diagnostics": []
+    }
+  }
+}
